@@ -28,6 +28,12 @@ p img {
     box-shadow: 5px 10px 18px rgb(94, 92, 92);
 
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 p h2 {
     text-align: left;
 }
