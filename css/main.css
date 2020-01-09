@@ -3,8 +3,9 @@ body {
     line-height: 2;
     background-color:rgba(38, 114, 114, 0.1);
     font-family: Verdana, Geneva, sans-serif;
+    
 }
-header, nav, main, footer {
+nav, main {
     margin: 1.25rem auto;
     max-width: 760px;
 }
@@ -17,6 +18,8 @@ header, footer {
     border-radius: 5px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     letter-spacing: 2px; 
+    margin: 1.5rem auto;
+    max-width: 760px;
 
 }
 header {
