@@ -34,17 +34,14 @@ p img {
 }
 
 
-p h2 {
+h2 {
     text-align: left;
 }
 footer {
     text-shadow: 1px 1px black;
     
 }
-footer p {
-    color: white;
-    text-shadow: 1px 1px black;
-}
+
 a:hover {
     background-color:rgba(38, 114, 114, 0.9);
     color: white;
