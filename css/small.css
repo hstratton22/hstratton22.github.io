@@ -28,7 +28,7 @@ header {
     text-shadow: 1px 1px white;
 }
 p img {
-    float: right;
+   
     margin: 5px;
     box-shadow: 5px 10px 18px rgb(94, 92, 92);
 
@@ -44,6 +44,7 @@ h2 {
 }
 footer {
     text-shadow: 1px 1px black;
+    color:white;
     
 }
 
