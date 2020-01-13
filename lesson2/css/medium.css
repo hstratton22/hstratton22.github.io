@@ -1,3 +1,19 @@
 @media only screen and (min-width: 32.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    section:nth-child(3) {
+        grid-column: span 2;
+    }
+    img {
+        float: right;
+        margin: 5px;
     
+    }
+    p {
+        margin: .75em;
+        
+    
+    }
+
 }

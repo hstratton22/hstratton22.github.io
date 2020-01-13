@@ -12,7 +12,7 @@ nav, main {
 }
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
  /*@media only screen and (min-width:60em) {
 main { grid-template-columns: 1fr 1fr 1fr;
@@ -49,6 +49,7 @@ section {
 }
 header {
     text-shadow: 1px 1px white;
+    
 }
 h2 {
     
@@ -56,14 +57,14 @@ h2 {
     text-align: center;
 }
 h3 {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
+    
     
 
 }
 img {
-    float: right;
-    margin: 5px;
+    
+    
     box-shadow: 5px 10px 18px rgb(94, 92, 92);
 
 }
@@ -71,16 +72,9 @@ img {
     max-width: 100%;
     height: auto;
 }
-p {
-    margin: .75em;
-    
 
-}
 
-h2 {
-    text-align: left;
-    
-}
+
 footer {
     text-shadow: 1px 1px black;
     color: white;
