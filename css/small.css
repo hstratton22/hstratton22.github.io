@@ -16,7 +16,7 @@ header, footer {
     
     text-align: center;
     padding: .5rem;
-    border-radius: 5px;
+   
     font-family: 'Baskervville', Palatino, serif;
    /* font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
     letter-spacing: 2px; 
@@ -41,6 +41,10 @@ p img {
 
 h2 {
     text-align: left;
+    font-size: 1rem;
+}
+h1 {
+    font-size: 1.5rem;
 }
 footer {
     text-shadow: 1px 1px black;
