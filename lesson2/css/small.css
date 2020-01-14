@@ -56,7 +56,8 @@ header {
 }
 h2 {
     
-    
+    font-family: 'Baskervville', Palatino, serif;
+    letter-spacing: 2px; 
     text-align: center;
 }
 h3 {
