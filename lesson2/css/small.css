@@ -3,7 +3,7 @@ body {
     line-height: 2;
     background-color:rgba(38, 114, 114, 0.1);
     
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Poppins', sans-serif;
     
 }
 nav, main {
@@ -22,7 +22,7 @@ header, footer {
     text-align: center;
     padding: .5rem;
     border-radius: 5px;
-    font-family: 'Baskervville', Palatino, serif;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 2px; 
     margin: 1.5rem auto;
     max-width: 760px;
@@ -51,7 +51,7 @@ header {
 
 h2 {
     
-    font-family: 'Baskervville', Palatino, serif;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 2px; 
     text-align: center;
 }
