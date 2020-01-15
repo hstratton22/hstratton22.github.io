@@ -2,7 +2,7 @@ body {
     font-size: 1em;
     line-height: 2;
     background-color:rgba(38, 114, 114, 0.1);
-    
+    max-width: 1360px;
     font-family: 'Poppins', sans-serif;
     
 }
@@ -45,7 +45,7 @@ header {
     
 }
 .contrast {
-    background-color: grey;
+    background-color:rgb(89,89,92);
     color: white;
 }
 
@@ -60,10 +60,15 @@ h3 {
     text-align: center;
     margin-bottom: -1em;
     
-    
-    
+   
 
 }
+.thirds {
+    background-color: rgba(152,152,155, 0.3);
+}
+/*#98989B or RGB (152, 152, 155) lighter grey
+#59595C or RGB (89, 89, 92) medium grey
+*/
 img {
     
     margin-left: auto;
