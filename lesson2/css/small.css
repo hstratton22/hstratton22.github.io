@@ -31,11 +31,7 @@ header, footer {
 section {
     padding: 1em;
 }
-p {
-    text-align: justify;
-    text-justify: inter-word;
-    
-}
+
 header {
     text-shadow: 1px 1px black;
     

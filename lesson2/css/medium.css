@@ -13,7 +13,8 @@
     }
     p {
         margin: .75em;
-        
+        text-align: justify;
+        text-justify: inter-word;
     
     }
     
