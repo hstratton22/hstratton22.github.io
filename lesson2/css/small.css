@@ -11,7 +11,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     
-    margin: 1rem auto;
+    margin: 2rem auto;
 }
  
 header, footer {
@@ -30,6 +30,7 @@ header, footer {
 }
 section {
     padding: 1em;
+    margin: 1rem;
 }
 
 header {
