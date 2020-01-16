@@ -10,7 +10,8 @@ body {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 1.5rem auto;
+    
+    margin: 1rem auto;
 }
  
 header, footer {
@@ -22,7 +23,7 @@ header, footer {
     border-radius: 20px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 3px; 
-    margin: 1.5rem auto;
+    margin: .75rem auto;
     max-width: 760px;
     
 
@@ -36,7 +37,7 @@ p {
     
 }
 header {
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px black;
     
 }
 .contrast {
