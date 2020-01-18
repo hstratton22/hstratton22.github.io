@@ -70,7 +70,7 @@ img {
    
   }
   .marvel {
-    box-shadow: 5px 10px 18px white;
+    box-shadow: 5px 10px 18px rgba(152,152,155, 0.3);
 
    }
   .responsive {
