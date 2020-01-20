@@ -5,22 +5,22 @@
 }
 .sansfont {
     font-family: 'Merriweather Sans', sans-serif;
-    color: #0040FF;
+    color: #596895;
 }
 body {
     max-width: 960px;
     font-family: 'Merriweather Sans', sans-serif;
-    color: #0040FF;
+    color: #3D61CC;
     
 }
 p {
-    color:#4D79FF;
+    color:#3D61CC;
     margin: 1rem;
     
     
 }
 .persona {
-    border: 1px solid #002090;
+    border: 1px dashed #17244D;
 
 }
 section {
@@ -28,25 +28,26 @@ section {
     margin: 1rem;
     text-align: center;
     
+    
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr;
     margin: 2rem auto;
-    max-width: 600px;
-    border:  5px solid #4D79FF;
+    max-width: 700px;
+    border:  5px solid #263D80;;
 }
 h1, h2, h3 {
     text-align: center;
-    color: #002080;
+    color: #263D80;
     font-family: 'Merriweather', serif;
     
 }
 header, footer {
-    background-color: #4D79FF;
+    background-color:#7A8FCC;
     margin: auto;
-    max-width: 640px;
+    max-width: 760px;
     font-family: 'Merriweather', serif;
     text-align: center;
 
@@ -57,21 +58,22 @@ header {
 }
 footer {
     border-radius: 5px 5px 50px 50px;
-    color: #002080;;
+    color:  #263D80;
 }
 img {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1rem;
     height: auto;
 
 }
-a {
-    color:#0033CC;
+nav a {
+    color:#3D61CC;
 }
 nav {
     max-width:600px;
-    color: #002080;
+    color:  #263D80;
     text-align: center;
     margin: 0 auto;
    
@@ -88,7 +90,7 @@ nav ul {
       
 }
 nav a:hover {
-    background-color:#4D79FF;
+    background-color:#3D61CC;
     color: white;
 }
 footer a {
