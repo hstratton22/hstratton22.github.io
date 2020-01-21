@@ -27,6 +27,7 @@ p {
     border: 1px dashed #263D80;
     text-align: left;
     display: grid;
+    margin: auto;
   
 
 }
