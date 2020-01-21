@@ -106,11 +106,11 @@ nav a {
     color:#3D61CC;
 }
 nav {
-    max-width:600px;
+    max-width:760px;
     color:  #263D80;
     text-align: center;
     margin: 0 auto;
-    display: flex;
+    
    
 
 }
