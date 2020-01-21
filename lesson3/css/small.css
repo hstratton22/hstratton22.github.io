@@ -1,21 +1,24 @@
 .font {
     font-family: 'Merriweather', serif;
-    color: #263D80;
+    
 
 }
 .sansfont {
     font-family: 'Merriweather Sans', sans-serif;
-    color: #596895;
+   
 }
 body {
     max-width: 960px;
     font-family: 'Merriweather Sans', sans-serif;
     color: #3D61CC;
+    padding: .5em;
     
 }
 p {
-    color:#3D61CC;
-    margin: 1rem;
+    
+    color: #596895;
+    margin-left: 4rem;
+    margin-right: 4rem;
     
     
 }
@@ -27,8 +30,6 @@ section {
     padding: 1em;
     margin: 1rem;
     text-align: center;
-    
-    
 }
 
 main {
@@ -39,27 +40,42 @@ main {
     border:  5px solid #263D80;;
 }
 h1, h2, h3 {
-    text-align: center;
-    color: #263D80;
+   
     font-family: 'Merriweather', serif;
     
 }
-header, footer {
+h1 {
+    color: white;
+    text-align: left;
+    background-color:#263D80;
+}
+h2 {
     background-color:#7A8FCC;
+    color: #17244D;
+    margin-left: 4em;
+    margin-right:4em;
+    padding: .5rem;
+    text-align:center;
+    
+}
+h3 {
+    text-align: center;
+}
+
+header, footer {
+    background-color:#263D80;
+   
     margin: auto;
     max-width: 760px;
     font-family: 'Merriweather', serif;
     text-align: center;
-
-
+  
 }
+
 header {
     border-radius: 50px 50px 5px 5px;
 }
-footer {
-    border-radius: 5px 5px 50px 50px;
-    color:  #263D80;
-}
+
 img {
     max-width: 90%;
     margin-left: auto;
@@ -90,14 +106,27 @@ nav ul {
       
 }
 nav a:hover {
-    background-color:#3D61CC;
-    color: white;
+    background-color: #596895;
+    color:white;
+    padding: .5rem;
+}
+a:hover {
+    background-color:#7A8FCC;
+    padding:.5rem;
+    color: #17244D;
 }
 footer a {
     color: white;
 }
+  
+footer {
+    color: white;
+    border-radius: 5px 5px 50px 50px;
+    padding:.5rem;
+    
+}
 .logo {
-    margin-right: -.5rem;
+    margin-right: .5rem;
     margin-top: 1rem;
     border-radius: 1em;
     
