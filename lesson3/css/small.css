@@ -16,7 +16,7 @@ body {
 }
 p {
     
-    color: #596895;
+    color: #17244D;
     margin-left: 4rem;
     margin-right: 4rem;
     padding:.5rem;
@@ -52,6 +52,7 @@ h2, h3, h4 {
 }
 header h1 {
     text-align: left;
+    margin-left: -.25rem;
     
 }
 h1 {
@@ -62,13 +63,14 @@ h1 {
     font-family: 'Merriweather', serif;
 }
 h2 {
-    color: #17244D;
+    color:#263D80;
     margin-bottom: -1rem;
         
 }
 h3 {
     background-color:#7A8FCC;
-    color: #17244D;
+    color:#17244D;
+    
     margin-left: 4em;
     margin-right:4em;
     padding: .5rem;
