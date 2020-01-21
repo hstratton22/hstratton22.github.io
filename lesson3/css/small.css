@@ -79,7 +79,7 @@ h4 {
 
 header, footer {
     background-color:#263D80;
-    margin: auto;
+    margin: 0 auto;
     max-width: 760px;
     font-family: 'Merriweather', serif;
     text-align: center;
@@ -119,16 +119,19 @@ nav li {
 }
 nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
       
 }
 nav a:hover {
     background-color: #596895;
     color:white;
-    padding: .5rem;
+    
 }
 a:hover {
     background-color:#7A8FCC;
-    padding:.5rem;
+    
   
 }
 footer a {
