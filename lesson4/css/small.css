@@ -113,6 +113,9 @@ main {
     
 
 }
+.forecast {
+    display:none;
+}
 .summary {
     border: 1px solid #17244D;
     background-color: transparent;

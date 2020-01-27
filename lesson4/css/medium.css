@@ -29,4 +29,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     .motto p {
         margin-top:-2rem;
     }
+    .forecast {
+        display: flex;
+    }
 }

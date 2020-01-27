@@ -19,16 +19,18 @@ body {
 p {
     
     color: #17244D;
-    
     padding:.5rem;
     
-    
+}
+.purpose {
+    text-align: left;
 }
 .persona {
     
     text-align: left;
     display: grid;
     margin: 0;
+    line-height:1.5;
   
 
 }
