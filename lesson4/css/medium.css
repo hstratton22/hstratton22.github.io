@@ -27,9 +27,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
     }
     .motto p {
-        margin-top:-2rem;
+        margin-top:-1rem;
+        font-size:1.5rem;
     }
     .forecast {
         display: flex;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        margin-top:1rem;
+        margin-bottom:1rem;
+      
+        background-color:rgba(0,0,0,0.1);
+
     }
+    .forecast p {
+        background-color: white;
+        border: 1px solid  #17244D;
+        
+
+    }
+    body {
+        line-height:1.25rem;
+    }
+    article {
+        flex-direction:row-reverse;
+
+    }
+   
 }

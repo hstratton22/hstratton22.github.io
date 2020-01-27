@@ -4,11 +4,14 @@ header {
     justify-content:center;
     border-radius: 50px 50px 5px 5px;
     
+    
 }
 .headings {
     display:flex;
     flex-direction: column;
+    background-color: transparent;
 }
+
 .motto p {
     text-align: right;
     margin-right:1.5rem;
@@ -48,7 +51,7 @@ nav button {
 nav ul {
     list-style-type: none;
     padding:0;
-   
+    overflow: hidden;   
     margin:0;
     
     
@@ -79,6 +82,7 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
     color: #3D61CC;
     text-align:center;
+    
 }
 main {
     display: flex;
@@ -86,21 +90,41 @@ main {
     margin: 1rem auto;
     max-width: 1020px;
     text-align: center;
+    padding: .5rem;
+    position: relative;
+    
+   
 
 }
-.article {
-    border: 1px solid #17244D;
-    margin: 1rem auto;
-    padding: .5rem;
-}
-.article h4 {
-    text-align: left;
-    margin-bottom: -.5rem;
+/*.hero {
+    position: relative;
+    text-align:left;
+}*/
+.contentbox {
+    border:1px solid #17244D;
+    background-color: rgba(0,0,0,0.1);
+    padding:.5rem;
+   
+
 }
 .articleimage {
     float:right;
-    margin-left: .5rem;
+    margin-left: .75rem;
 }
+  article {
+    border:1px solid #17244D;
+    margin: 1rem auto;
+    padding: .5rem;
+    text-align:left;
+    display:flex;
+    flex-direction: column-reverse;
+}
+ article h4 {
+    text-align: left;
+    margin-bottom: -.5rem;
+    
+}
+
  p.author {
      color:#17244D;
      font-size: .75rem;
@@ -113,16 +137,42 @@ main {
     
 
 }
-.forecast {
-    display:none;
+.contactinfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:1rem;
+    padding: 1rem;
+    
+
+}
+.contactinfo img {
+    grid-column: span 2;
+
+}
+.contactinfo h4 {
+    grid-column: span 2;
+
+
 }
 .summary {
+    position:relative;
+    top:.5rem;
+    left: .5rem;
+    margin:0;
+  
+    padding:.25rem;
+    display: inline-block;
     border: 1px solid #17244D;
-    background-color: transparent;
+    background-color:white;
     
-    margin:0 6rem;
-    
+     
+
 }
+.forecast {
+    display:none;
+
+}
+
 header, footer {
     background-color: #263D80;
     max-width: 1020px;
@@ -161,9 +211,7 @@ h4 {color:#263D80;}
     margin: 0 auto;
     
 }
-.forecast {
-    display: none;
-}
+
 
 
 
