@@ -32,18 +32,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     }
     .forecast {
         display: flex;
+        flex-direction: column;
         height: 100px;
         align-items: center;
         justify-content: center;
-        
         max-width: 1020px;
-      
         background-color:rgba(0,0,0,0.1);
+        align-content:center;
+        padding: .5rem;
 
     }
     .forecast p {
         background-color: white;
         border: 1px solid  #17244D;
+        
+        
+        margin-top: -1.5rem;
+        
         
 
     }
