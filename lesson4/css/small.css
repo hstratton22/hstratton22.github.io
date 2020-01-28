@@ -216,7 +216,7 @@ header, footer {
 }
 footer {
     color:white;
-    padding: .5rem;
+    margin:auto;
     text-align:center;
     border-radius: 5px 5px 50px 50px;
     max-width:1020px;

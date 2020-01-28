@@ -52,6 +52,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
         border: 1px solid  #17244D;
         margin-top: -1.5rem;
         font-size:1.5rem;
+        padding:.5rem;
         display: inline;
         
         
@@ -74,7 +75,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     }
     .contactinfo  {
         grid-row-gap: 0;
-        grid-column-gap: 2rem;;
+        grid-column-gap: 2rem;
+        margin-left:.25rem;
+        margin-right:.25rem;
     }
     .contact1  {
         grid-column: 2;
