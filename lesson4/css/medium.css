@@ -33,25 +33,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     .forecast {
         display: flex;
         flex-direction: column;
-        height: 100px;
+        max-height: 100px;
         align-items: center;
         justify-content: center;
         max-width: 1020px;
         background-color: rgba(122,143,204,0.3);
         align-content:center;
-        /*padding-left:20rem;
-        padding-right:20rem;
-        padding-top: .5rem;*/
+        padding-left:6rem;
+        padding-right:6rem;
+        padding-top: .5rem;
         padding-bottom:.5rem;
         border:1px solid #17244D;
-        margin:0;
+        margin:auto;
         
     }
     .forecast p {
         background-color: white;
         border: 1px solid  #17244D;
         margin-top: -1.5rem;
-        font-size:1.25rem;
+        font-size:1.5rem;
+        display: inline;
         
         
         
@@ -71,29 +72,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     article p {
         text-align:left;
     }
-    .contactinfo h4 {}
-    /*.contact1  {
+    .contactinfo  {
+        grid-row-gap: 0;
+        grid-column-gap: 2rem;;
+    }
+    .contact1  {
         grid-column: 2;
-        grid-row: 2;
-        align-self: center;
+        grid-row: 1;
+        align-self: end;
         justify-self:center;
     }
     .contact2 {
         grid-column: 2;
-        grid-row: 3;
-        align-self: center;
+        grid-row: 2;
+        align-self: start;
         justify-self:center;
 
     }*/
-    .contactinfo p {
+    /*.contactinfo p {
         grid-column:2;
-        
+        grid-row:2/4;
         display:inline;
-    }
+    }*/
    .contactinfo img {
        grid-column: 1;
-       grid-row: 2;
-       align-self: center;
+       grid-row: 1;
+       align-self: start;
        justify-self:center;
+      
+
    }
 }

@@ -107,11 +107,8 @@ main {
     
 }*/
 .contentbox {
-   
     padding:.5rem;
     margin-bottom:1rem;
-   
-
 }
 
   article {
@@ -123,6 +120,7 @@ main {
     background-color: rgba(122,143,204,0.3);
     padding:.5rem;
     max-width:1020px;
+    margin:0;
 }
  article h4 {
     text-align: left;
@@ -158,6 +156,7 @@ article img {
     grid-template-columns: 1fr 1fr;
     grid-gap:1rem;
     padding: 1rem;
+    margin:0;
     margin-bottom: -1rem;
     text-align:left;
     border:1px solid #17244D;
@@ -171,12 +170,7 @@ article img {
     max-width:100%;
 
 }
-.contactinfo h4 {
-    grid-column: span 2;
-    
 
-
-}
 .summary {
     position:absolute;
    /* top:1.75rem;
@@ -198,12 +192,12 @@ article img {
     color:  white;
     font-size: 2rem;
     line-height:1.5;
-    
     margin: auto;
     
 
 }
 .summary h4 {
+    color:#17244D;
     
    
     
