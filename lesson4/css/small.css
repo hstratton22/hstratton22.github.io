@@ -103,10 +103,10 @@ main {
    
 
 }
-.hero {
+/*.hero {
     position: relative;
     
-}
+}*/
 .contentbox {
     border:1px solid #17244D;
     background-color: rgba(0,0,0,0.1);
@@ -155,25 +155,30 @@ article img {
     grid-gap:1rem;
     padding: 1rem;
     margin-bottom: -1.5rem;
+
     
 
 }
 .contactinfo img {
     grid-column: span 2;
+    max-width:100%;
 
 }
 .contactinfo h4 {
     grid-column: span 2;
+    
 
 
 }
 .summary {
     position:absolute;
-    top:1.75rem;
-    left: 1.75rem;
+   /* top:1.75rem;
+    left: 1.75rem;*/
+    top:4.5rem;
+    left:3rem;
     margin:auto;
-    max-width:10rem;
-    max-height:20rem;
+    width:12rem;
+    height:13rem;
     background-color:#7A8FCC;
      
     padding:.5rem;
@@ -182,15 +187,19 @@ article img {
     
 }
 .summary p {
-    background-color: white;
-    color:  #3D61CC;
+    /*background-color: white;#3D61CC;*/
+    color:  white;
+    font-size: 2rem;
+    line-height:1.5;
+    
+    margin: auto;
     
 
 }
 .summary h4 {
-    margin-top:-.25rem;
+    
    
-    margin-bottom:-.5rem;
+    
 }
 .forecast {
     display:none;
