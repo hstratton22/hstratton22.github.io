@@ -44,6 +44,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
         padding-top: .5rem;*/
         padding-bottom:.5rem;
         border:1px solid #17244D;
+        margin:0;
         
     }
     .forecast p {
@@ -70,11 +71,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     article p {
         text-align:left;
     }
-    .contactinfo p {
+    .contactinfo h4 {}
+    .contact1  {
         grid-column: 2;
         grid-row: 2;
         align-self: center;
         justify-self:center;
+    }
+    .contact2 {
+        grid-column: 2;
+        grid-row: 3;
+        align-self: center;
+        justify-self:center;
+
     }
    .contactinfo img {
        grid-column: 1;
