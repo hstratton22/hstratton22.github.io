@@ -35,8 +35,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
         height: 100px;
         align-items: center;
         justify-content: center;
-        margin-top:1rem;
-        margin-bottom:1rem;
+        
+        max-width: 1020px;
       
         background-color:rgba(0,0,0,0.1);
 
@@ -53,6 +53,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     article {
         flex-direction:row-reverse;
 
+    }
+    .articleimage {
+        float:right;
+        margin-left: .75rem;
+    }
+    article p {
+        text-align:left;
     }
    
 }
