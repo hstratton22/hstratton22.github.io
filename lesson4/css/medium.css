@@ -44,7 +44,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
         padding-top: .5rem;
         padding-bottom:.5rem;
         border:1px solid #17244D;
-        margin:auto;
+        margin:0 auto;
         
     }
     .forecast p {

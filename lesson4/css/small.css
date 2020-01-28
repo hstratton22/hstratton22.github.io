@@ -31,6 +31,7 @@ a {
 .logo {
     border-radius:25px;
     margin-right:.25rem;
+    
 }
 nav ul.hide {
     display: none;
@@ -120,7 +121,7 @@ main {
     background-color: rgba(122,143,204,0.3);
     padding:.5rem;
     max-width:1020px;
-    margin:0;
+    margin:0 auto;
 }
  article h4 {
     text-align: left;
@@ -156,7 +157,7 @@ article img {
     grid-template-columns: 1fr 1fr;
     grid-gap:1rem;
     padding: 1rem;
-    margin:0;
+    margin:0 auto;
     margin-bottom: -1rem;
     text-align:left;
     border:1px solid #17244D;
@@ -177,7 +178,7 @@ article img {
     left: 1.75rem;*/
     top:4.5rem;
     left:3rem;
-    margin:auto;
+    margin:0 auto;
     width:12rem;
     height:13rem;
     background-color:#7A8FCC;
@@ -209,8 +210,6 @@ article img {
 
 header, footer {
     background-color: #263D80;
-    
-    font-family: 'Merriweather', serif;
     margin: 1rem auto;
     
 }
@@ -220,6 +219,7 @@ footer {
     text-align:center;
     border-radius: 5px 5px 50px 50px;
     max-width:1020px;
+    font-family: 'Merriweather', serif;
 }
 footer a {
     color: white;
