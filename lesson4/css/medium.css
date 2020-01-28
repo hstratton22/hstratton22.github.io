@@ -37,14 +37,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
         align-items: center;
         justify-content: center;
         max-width: 1020px;
-        background-color:rgba(0,0,0,0.1);
+        background-color: rgba(122,143,204,0.3);
         align-content:center;
         /*padding-left:20rem;
         padding-right:20rem;
         padding-top: .5rem;*/
         padding-bottom:.5rem;
         border:1px solid #17244D;
-        background-color: rgba(0,0,0,0.1);
+        
     }
     .forecast p {
         background-color: white;
