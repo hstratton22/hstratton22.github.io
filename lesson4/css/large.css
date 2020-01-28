@@ -6,6 +6,11 @@
         display: none;
     }
    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     nav ul {
         padding-left:1rem;
         padding-right:1rem;
