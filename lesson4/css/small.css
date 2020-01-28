@@ -3,6 +3,7 @@ header {
     align-items:center;
     justify-content:center;
     border-radius: 50px 50px 5px 5px;
+    margin-bottom: -1rem;
     
     
 }
@@ -38,8 +39,8 @@ nav {
     background-color:#7A8FCC;
     font-weight: bold;
     font-family: 'Merriweather Sans', sans-serif;
-    
     margin:auto;
+    margin-top:-1rem;
     
     
 }

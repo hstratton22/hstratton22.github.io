@@ -72,7 +72,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
         text-align:left;
     }
     .contactinfo h4 {}
-    .contact1  {
+    /*.contact1  {
         grid-column: 2;
         grid-row: 2;
         align-self: center;
@@ -84,6 +84,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
         align-self: center;
         justify-self:center;
 
+    }*/
+    .contactinfo p {
+        grid-column:2;
+        
+        display:inline;
     }
    .contactinfo img {
        grid-column: 1;
