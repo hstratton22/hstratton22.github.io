@@ -90,6 +90,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap:1rem;
+        padding:0 1.5rem;
 
     }
     .articleimage {
