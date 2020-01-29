@@ -61,6 +61,7 @@ nav ul {
     margin:0;
     
     
+    
 }
 nav ul li.menu {
     display: none;
@@ -72,6 +73,7 @@ nav ul li a {
     padding: 1rem 2%;
     color: #17244D;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
+    
 
 }
 nav ul li.active a {
@@ -114,7 +116,7 @@ main {
     position:relative;
 }
 
-  article {
+ article {
    
     text-align:left;
     display:flex;
@@ -138,7 +140,7 @@ article p {
    
     
 }
-article img {
+.articleimage {
     max-width: 100%;
     margin: 0 auto;
 }
@@ -158,7 +160,7 @@ article img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap:1rem;
-    padding: 1rem;
+    padding: 1.25rem;
     margin:0 -.5rem;
     margin-bottom: -1rem;
     text-align:left;
@@ -177,24 +179,23 @@ article img {
 */
 .contactinfo img {
     grid-column: span 2;
-    max-width:100%;
+    max-width:90%;
+    margin:auto;
 
 }
 
 .summary {
     position:absolute;
-   /* top:1.75rem;
-    left: 1.75rem;*/
     top:1.25rem;
     left:1.25rem;
     margin:0 auto;
     width:150px;
     height:150px;
     background-color:#7A8FCC;
-     
     padding:.5rem;
     display: inline-block;
     border: 1px solid #17244D;
+    
     
 }
 .summary p {
