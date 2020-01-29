@@ -101,7 +101,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
        grid-column: 1;
        grid-row: 1 / 3;
        align-self: center;
-       justify-self:center;
+       justify-self:baseline;
       
 
    }
