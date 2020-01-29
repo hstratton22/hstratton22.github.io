@@ -106,10 +106,10 @@ main {
    
 
 }
-/*.hero {
-    position: relative;
+.hero {
+  
     
-}*/
+}
 .contentbox {
     
     margin-bottom:1rem;
@@ -151,6 +151,7 @@ article p {
      margin-left:.75rem;
      
  } 
+ 
 .city {
     margin-top:-.25rem;
     
@@ -253,7 +254,10 @@ h3  {background-color:#7A8FCC;
 h4 {color:#263D80;}
 .heroimage {
     max-width: 100%;
-    margin: 0 auto;
+    max-height:100%;
+   
+    
+    border: 1px solid #263D80;
     
 }
 
