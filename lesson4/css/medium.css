@@ -39,8 +39,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
         max-width: 1020px;
         background-color: rgba(122,143,204,0.3);
         align-content:center;
-        padding: 0 7rem;
-        padding-bottom:1rem;
+        padding: 1rem 7rem;
+        /*padding-bottom:1rem;*/
         border:1px solid #17244D;
         margin:0 auto;
         margin-bottom:1rem;
