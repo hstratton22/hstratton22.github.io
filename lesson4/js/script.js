@@ -1,5 +1,5 @@
 //const options={minute: "numeric", hour: "numeric", day: "numeric", month: "long", }
-const options= {day: "long", day: "numeric", month: "long", year:"numeric"};
+const options= {weekday: "long", day: "numeric", month: "long", year:"numeric"};
           
 document.getElementById('currentDate').textContent=new Date().toLocaleDateString("en-US", options);
 // const modoptions ={ second: "numeric", minute: "numeric", hour: "numeric", day: "numeric", month:"numeric", year: "numeric"};
