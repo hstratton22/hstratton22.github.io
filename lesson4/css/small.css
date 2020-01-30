@@ -29,8 +29,10 @@ a {
 
 
 .logo {
-    border-radius:25px;
+    border-radius:50px;
     margin-right:.25rem;
+    max-width:75px;
+    max-height:75px;
     
 }
 nav ul.hide {

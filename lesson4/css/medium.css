@@ -22,13 +22,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 }
 
 
-    .headings h1 {
-        font-size: 3rem;
+   /* .headings h1 {
+        font-size: 2rem;
 
-    }
+    }*/
     .motto p {
         margin-top:-1rem;
-        font-size:1.5rem;
     }
     .forecast {
         display: flex;
@@ -139,6 +138,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
         
 
     }
+   
     /*.contactinfo p {
         grid-column:2;
         grid-row:2/4;
