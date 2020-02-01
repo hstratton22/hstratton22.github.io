@@ -10,9 +10,9 @@
     border-radius: 50px;
     border:2px dashed white;
 }
-/*.noshow {
+.noshow {
     display:none;
-}*/
+}
 header { 
     display: flex;
     align-items:center;

@@ -12,7 +12,8 @@ function toggleMenu() {
 function showBanner() {
     var today= new Date();
     var wkday= today.getDay();
-    if (wkday != 5){
+    if (wkday == 5){
     document.getElementById("banner").classList.toggle("noshow");
+   
 }
 }
