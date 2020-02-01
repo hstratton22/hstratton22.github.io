@@ -1,3 +1,18 @@
+#banner {
+    margin:0;
+    padding:1px 0;
+    background-color:#3D61CC;
+    color:white;
+    font-size:1rem;
+    line-height: 1.25;
+    font-weight:bold;
+    margin-bottom:-1rem;
+    border-radius: 50px;
+    border:2px dashed white;
+}
+/*.noshow {
+    display:none;
+}*/
 header { 
     display: flex;
     align-items:center;

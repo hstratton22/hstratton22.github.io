@@ -9,3 +9,10 @@ function toggleMenu() {
    // console.log(document.getElementById("topNav").classList);
     document.getElementById("topNav").classList.toggle("hide");
 }
+function showBanner() {
+    var today= new Date();
+    var wkday= today.getDay();
+    if (wkday != 5){
+    document.getElementById("banner").classList.toggle("noshow");
+}
+}
