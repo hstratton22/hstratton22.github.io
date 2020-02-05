@@ -20,7 +20,7 @@ background: linear-gradient(to bottom,  #1e5799 0%,#7a8fcc 1%,#263d80 100%); /* 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#263d80',GradientType=0 ); /* IE6-9 */
 
 }
-#banner {
+/*#banner {
     /*font-size:1.75rem;
     line-height: 1.25;
     padding: .25rem 0;
