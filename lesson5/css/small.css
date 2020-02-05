@@ -237,8 +237,8 @@ display: none;
     
     /*background-color:#596895;*/
     background:radial-gradient(#7A8FCC, #596895);
-    
-    padding:.5rem;
+    font-weight:bold;
+    padding:.75rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: .5rem;
