@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Preston weather page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="City of Preston weather page including interesting news stories.">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather&7cMerriweather+Sans&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="../favicon.ico">
+    </head>
+    <body onload= "showBanner()">
+        <section  id="banner" class="noshow">
+           <h1>Saturday = Preston Pancakes in the Park!<br>
+            9:00 a.m. Saturday at the city park pavilion.</h1>
+        </section>
+    <header>
+
+        <img class="logo" src="images/iconmed.jpg" alt="weatherornot logo">
+        <section class="headings">
+            <h1> Weather or Not</h1>
+            <div class="motto"><p>Helping you plan your day</p></div>
+        </section>
+    </header>
+    
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="topNav" class="hide">
+                <li class="menu"><a href="#">Menu</a></li>
+                <li class="active"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+                </ul>
+            
+        </nav>
+    
+    
+        <main>
+            <h2 class="city">Preston</h2>
+            <div class="contentbox hero">
+                <img src="images/boater1cropped.jpg"  alt="hero image of man in boat on water" class="heroimage">
+               <div class="summary"><h3>Weather Summary</h3>
+           <p>Currently: </p><span id="current"> Sunny</span>
+        <p>Temperature: </p><span id="temp"> 32 &#8457;</span>
+    <p>Feels Like: </p><span id="feelslike"> 30 &#8457;</span>
+<p>Humidity: </p><span id="humidity"> 69%</span>
+<p>Wind Speed: </p><span id="windspeed"> 5 mph</span></div></div>
+            <div class="contentbox forecast clearfix">
+                
+                <h4>5 Day Forecast</h4>
+                <section class="fiveday">
+                    <div><h3 class="day">Mon</h3><img src="images/windymed.jpg" alt="windy"><p class="temp">32 &#8457;</p></div>
+                    <div><h3 class="day">Tue</h3><img src="images/thunder.jpg" alt="thunger"><p class="temp">35 &#8457;</p></div>
+                    <div><h3 class="day">Wed</h3><img src="images/cloudy.jpg" alt="cloudy"><p class="temp">45 &#8457;</p></div>
+                    <div><h3 class="day">Thu</h3><img src="images/snow.jpg" alt="snow"><p class="temp">29 &#8457;</p></div>
+                    <div><h3 class="day">Fri</h3><img src="images/sunny.jpg" alt="sunny"><p class="temp">25 &#8457;</p></div>
+
+                </section>
+
+            </div>
+            <div class="contentbox">
+                <article>
+                    
+                <img src="images/lighteningcrop.jpg" alt="article image of lightening striking" class="articleimage">
+                <div>
+                    <h4>Article Title</h4>
+                <p class="author">by Author</p>
+                <p>This is where an interesting article about something from the current city will be displayed. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                </article>
+            </div>
+           
+            <div class="contentbox contactinfo">
+                
+                
+                <p class="contact1"> 
+                   <b>Weather or Not</b><br>
+                    30 N 1st E<br>
+                    Preston, ID 83263
+                    </p>
+                   <p class="contact2"> &#9743; 999.999.9999<br>
+                    &#9993; weatherornot@worn.news</p>
+                    <ul class="socialmedia">
+                        <li><a href="https://twitter.com/" target="_blank"><img src="images/twitter1.png" alt="twitter icon"></a></li>
+                        <li><a href="https://www.pinterest.com/" target="_blank"><img src="images/pinterest1.png" alt="pinterest icon"></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><img src="images/facebook1.png" alt="facebook icon"></a></li>
+                        <li><a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin1.png" alt="linkedin icon"></a></li>
+                        <li><a href="https://aboutme.google.com/" target="_blank"><img src="images/googleplus1.png" alt="googleplis icon"></a> </li>
+                  
+                    </ul>
+                       
+                <img src="images/map1a.jpg" class="map" alt="random location map">
+
+            </div>
+    </main>
+    <footer>
+        &copy;Weather or Not | <a href="../index.html">Heather Stratton</a> <br>
+        <span id="currentDate"></span>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
