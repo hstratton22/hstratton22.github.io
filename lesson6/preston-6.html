@@ -54,10 +54,10 @@
                
                <div class="summary"><h3>Weather Summary</h3>
            <p>Currently: </p><span id="current"> Sunny</span>
-        <p>Temperature: </p><span id="temp"> 32 &#8457;</span>
-    <p>Feels Like: </p><span id="feelslike"> 30 &#8457;</span>
+        <p>Temperature: </p><span><span id="temp"> 32</span> &#8457;</span>
+    <p>Wind Chill: </p><span onload ="windChill()"><span id="windchill">  </span> &#8457;</span>
 <p>Humidity: </p><span id="humidity"> 69%</span>
-<p>Wind Speed: </p><span id="windspeed"> 5 mph</span></div></div>
+<p>Wind Speed: </p><span><span id="windspeed"> 5</span> mph</span></div></div>
             <div class="contentbox forecast clearfix">
                 
                 <h4>5 Day Forecast</h4>
@@ -112,5 +112,6 @@
         <span id="currentDate"></span>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
