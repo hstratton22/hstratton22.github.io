@@ -39,6 +39,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     body {
         line-height:1.25rem;
     }
+    .summary {
+        top:1.25rem;
+        left:3.5rem;
+    }
     /*article {
         flex-direction:row-reverse;
 
