@@ -1,7 +1,7 @@
 
 function windChill() {
-    let t = parseFloat(document.getElementById("temp").value);
-    let s = parseFloat(document.getElementById("windspeed").value);
+    let t = parseFloat(document.getElementById("temp").innerHTML);
+    let s = parseFloat(document.getElementById("windspeed").innerHTML);
     console.log(t);
     if (t<=50 && s>=3.0) {
     
