@@ -281,7 +281,8 @@ display: none;
 }
 #temp {
     grid-row:3;
-    grid-column: 2;;
+    grid-column: 2;
+    
 }
 #windchill {
     grid-row:4;

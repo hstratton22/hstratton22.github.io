@@ -43,6 +43,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
         top:1.25rem;
         left:3.5rem;
     }
+    #windchill, #temp, #windspeed {
+        margin:0;
+    }
+   
     /*article {
         flex-direction:row-reverse;
 
