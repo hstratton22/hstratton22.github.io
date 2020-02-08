@@ -12,7 +12,7 @@
         <link href="https://fonts.googleapis.com/css?family=Merriweather&7cMerriweather+Sans&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="../favicon.ico">
     </head>
-    <body onload= "showBanner()">
+    <body onload= "showBanner(); windChill();">
         <section  id="banner" class="noshow">
            <h1>Saturday = Preston Pancakes in the Park!<br>
             9:00 a.m. Saturday at the city park pavilion.</h1>
@@ -55,7 +55,7 @@
                <div class="summary"><h3>Weather Summary</h3>
            <p>Currently: </p><span id="current"> Sunny</span>
         <p>Temperature: </p><span><span id="temp"> 32</span> &#8457;</span>
-    <p>Wind Chill: </p><span onload ="windChill()"><span id="windchill">  </span> &#8457;</span>
+    <p>Wind Chill: </p><span><span id="windchill">  </span> &#8457;</span>
 <p>Humidity: </p><span id="humidity"> 69%</span>
 <p>Wind Speed: </p><span><span id="windspeed"> 5</span> mph</span></div></div>
             <div class="contentbox forecast clearfix">
