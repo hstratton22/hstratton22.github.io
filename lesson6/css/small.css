@@ -242,7 +242,7 @@ display: none;
     
     /*background-color:#596895;*/
    /* background:radial-gradient(#7A8FCC, #596895);*/
-    /*font-weight:bold;*/
+    font-weight:bold;
     padding:.75rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
