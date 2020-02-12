@@ -241,11 +241,11 @@ display: none;
     background:radial-gradient(#7A8FCC,#263D80);
     
     /*background-color:#596895;*/
-   /* background:radial-gradient(#7A8FCC, #596895);*/
-    font-weight:bold;
+   /* background:radial-gradient(#7A8FCC, #596895);
+    font-weight:bold;*/
     padding:.75rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-column-gap: .25rem;
     border: 1px solid #17244D;
     opacity: .9;
