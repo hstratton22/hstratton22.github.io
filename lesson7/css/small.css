@@ -361,8 +361,12 @@ h4 {color:#263D80;}
     display: flex;
     flex-direction: column;
 }
-.gallery picture {
-    margin: 0 1rem;
+.gallery img {
+    max-width: 100%;
+}
+.gallery picture p{
+    margin: o .5rem;
+    
 }
 
 
