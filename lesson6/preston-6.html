@@ -43,14 +43,18 @@
         <main>
             <h2 class="city">Preston</h2>
             <div class="contentbox hero">
-                <figure class="heroimage">
+                <picture class="heroimage">
+                    <source media="(max-width: 600px)" srcset="images/hero500.jpg">
+                        <source media="(max-width: 900px"srcset="images/hero800.jpg">
+                            <img src="images/hero1100.jpg" alt="landscape">
+                        </picture>
                    
  <!--                       <source media="(min-width: 600px) and (max-width:899px)" srcset="images/hero800.jpg">
                         <source media="(min-width: 900px)" srcset="images/hero1100.jpg">
                         <img src="images/hero500.jpg" alt="landscape">-->
                          
-              <img src="images/hero.jpg" sizes="90vw"  alt="landscape" srcset="images/hero500.jpg 500w, images/hero800.jpg 800w, images/hero1100.jpg 1100w">  
-                </figure>
+ <!--             <img src="images/hero.jpg" sizes="90vw"  alt="landscape" srcset="images/hero500.jpg 500w, images/hero800.jpg 800w, images/hero1100.jpg 1100w">  
+                </figure>-->
                
                <div class="summary"><h3>Weather Summary</h3>
            <p>Currently: </p><span id="current"> Sunny</span>

@@ -76,13 +76,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     p.author {
 
     }
-    article h4 {
-        margin-bottom:0;
-    }
-    article p {
-        text-align:left;
-        margin-top: -.25rem;
-    }
+    
     .contactinfo  {
         grid-template-rows: 75px 75px 75px;
         grid-template-columns: 1fr 1fr;
