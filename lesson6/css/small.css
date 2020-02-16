@@ -148,7 +148,7 @@ main {
     display:flex;
     flex-direction: column-reverse;
     border:1px solid #17244D;
-    background-color: rgba(122,143,204,0.3);
+    background-color:white;
     padding:.75rem;
     max-width:1020px;
     margin:0 auto;
@@ -355,6 +355,12 @@ h4 {color:#263D80;}
 }
 .heroimage img {
     width: 100%;
+}
+.contactinfo {
+   /* color: #263D80;*/
+    background-color:#7A8FCC;
+    color:#17244D;
+
 }
 
 
