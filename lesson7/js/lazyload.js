@@ -8,17 +8,17 @@ function preloadImage(img) {
     img.src=src;
 }
 const imgOptions={
-    threshold:1,
-    rootMargin: "0px 0px -100px 0px"
+    threshold:0,
+    rootMargin: "0px 0px -200px 0px"
 };
-const imObserver= new IntersectionObserver((entries, imgObserver) => {
+const imgObserver= new IntersectionObserver((entries, imgObserver) => {
     entries.forEach(entry => {
         if (!entry.isIntersecting) {
             return;
         }
         else {
-            preloadinImage(entry.target);
-            imgObeserver.unobserve(entry.target);
+            preloadImage(entry.target);
+            imgObserver.unobserve(entry.target);
         }
     })
 
