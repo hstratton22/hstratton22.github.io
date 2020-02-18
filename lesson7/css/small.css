@@ -364,7 +364,7 @@ h4 {color:#263D80;}
 .gallery img {
     max-width: 100%;
 }
-.gallery picture p{
+.gallery picture {
     margin: 0 .5rem;
     
 }
