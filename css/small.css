@@ -69,7 +69,8 @@ footer a:hover {
     color:rgba(38, 114, 114, 0.9);
 }
 a:hover {
-    background-color:rgba(38, 114, 114, 0.9);
+   /* background-color:rgba(38, 114, 114, 0.9);*/
+    background-color: rgb(63, 191, 191);
     color: white;
 }
 a {
