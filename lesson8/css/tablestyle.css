@@ -20,8 +20,9 @@ tbody {
 
 
 }
+
 table, thead, th, td {
-    border: 2px solid #ddd;;
+    border: 2px solid #b9bbbb;;
 
    /* border-collapse:collapse;*/
 }
@@ -38,7 +39,7 @@ tbody tr:nth-child(odd){
 thead {
     background-color: #7fb9c2;
     font-size: 30px;
-    font-weight: bold;
+   font-weight: bold;
     
 }
 tfoot {
