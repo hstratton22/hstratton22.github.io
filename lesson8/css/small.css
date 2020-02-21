@@ -377,12 +377,14 @@ h4 {color:#263D80;}
     align-items: start;
     text-align: left;
     display: block;
+    border-radius: 5px;
 
 }
 form fieldset {
     margin:2rem 0;
     border: 1px solid #263D80;
     border-radius: 5px;
+    
     padding: .5rem 2%;
 }
 form legend {
@@ -417,7 +419,7 @@ form label.sbs {
     
 }
 form input.submitBtn {
-    border: 2px solid #7A8FCC;
+    border: 3px solid #7A8FCC;
     background-color:#17244D;
     color:white;
     border-radius: 1rem;
@@ -427,6 +429,12 @@ form input.submitBtn {
     max-width: 20rem;
 
 
+}
+/*======thanks=======*/
+.thanks h1{
+    padding:2rem;
+    border-radius:30px;
+    border:3px solid #7A8FCC;
 }
 
 
