@@ -430,6 +430,9 @@ form input.submitBtn {
 
 
 }
+form label.comments {
+    margin-bottom: -.5rem;
+}
 /*======thanks=======*/
 .thanks h1{
     padding:2rem;
