@@ -65,8 +65,21 @@
         
     
                
-               <label class="top">Severity<input type="range" name="range" value="10" min="0" max="10" step="1">(1-10)</label>
-               
+               <label class="sbs"><div>Severity (1-10)</div> <input type="range"  name="range" value="10" min="0" max="10" step="1"></label>
+              <!-- <datalist id="tickmarks">
+                   <option value="0" label="0"></option>
+                   <option value="1" label="2"></option>
+                   <option value="2" label="2"></option>
+                   <option value="3" label="3"></option>
+                   <option value="4" label="4"></option>
+                   <option value="5" label="5"></option>
+                   <option value="6" label="6"></option>
+                   <option value="7" label="7"></option>
+                   <option value="8" label="8"></option>
+                   <option value="9" label="9"></option>
+                   <option value="10" label="10"></option>
+               </datalist>
+               -->
     
                
                <label class="top">Region
@@ -81,18 +94,18 @@
             </fieldset>
             <fieldset>
                 <legend>Extra</legend>
-                <div>Danger Level</div>
+                <div>My Danger Level</div>
               
-                <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
-                <label class="sbs"><input type="radio" name="danger" value="no">No</label>
-                <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
+                <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
     <!--            <div>Comments</div>
                     <label for="comments" class="sbs"><textarea name="textarea" id="comments" rows="5" cols="25"></textarea></label>
                 
 -->
-<label class="comments"><div>Comments</div><textarea name="comments" rows="5" cols="25"></textarea></label>
+                <label class="comments"><div>Comments</div><textarea name="comments" rows="5" cols="25"></textarea></label>
             </fieldset>
-            <input type="submit" value="report" class="submitBtn">
+            <input type="submit" value="Send Report" class="submitBtn" name="submit">
         </form>
     </main>
     <footer>
