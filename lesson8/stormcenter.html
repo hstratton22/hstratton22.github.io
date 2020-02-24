@@ -45,8 +45,8 @@
                 <legend>Personal Information</legend>
                 <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-z].{5,}"  required></label>
                 <label class="top">Phone* <input type="tel" name="phone" placeholder="###-###-####" required></label>
-                <label class="top">Email* <input type="email" name="email" placeholder="someone@email.com" required></label>
                 <label class="top">Zip code*<input type="number" name="zipcode" required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@email.com"></label>
                 
             </fieldset>
             <fieldset>
@@ -65,9 +65,9 @@
         
     
                
-               <label class="sbs"><div>Severity (1-10)</div> <input type="range"  name="range" value="10" min="0" max="10" step="1"></label>
-              <!-- <datalist id="tickmarks">
-                   <option value="0" label="0"></option>
+               <label class="sbs"><div>Severity </div> <input type="range"  id="rating" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" list="tickmarks" name="range" value="10" min="1" max="10" step="1"><span id="ratingvalue">10</span></label>
+               <datalist id="tickmarks">
+                  
                    <option value="1" label="2"></option>
                    <option value="2" label="2"></option>
                    <option value="3" label="3"></option>
@@ -79,7 +79,7 @@
                    <option value="9" label="9"></option>
                    <option value="10" label="10"></option>
                </datalist>
-               -->
+               
     
                
                <label class="top">Region
