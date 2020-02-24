@@ -64,8 +64,8 @@
                </datalist>
         
     
-               
-               <label class="sbs"><div>Severity </div> <input type="range"  class="slider" id="rating" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" list="tickmarks" name="range" value="10" min="0" max="10" step="1"><br><span id="ratingvalue"> 10</span></label>
+               <div>Severity</div>
+               <label class="sbs"> <input type="range"  class="slider" id="rating" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" list="tickmarks" name="range" value="10" min="0" max="10" step="1"><br><span id="ratingvalue"> 10</span></label>
                <datalist id="tickmarks">
                     <option value="0" label="0"></option>
                   
@@ -103,8 +103,8 @@
     <!--            <div>Comments</div>
                     <label for="comments" class="sbs"><textarea name="textarea" id="comments" rows="5" cols="25"></textarea></label>
                 
--->
-                <label class="comments"><div>Comments</div><textarea name="comments" rows="5" cols="30"></textarea></label>
+--><div>Comments</div>
+                <label class="comments"><textarea name="comments" rows="5" cols="30"></textarea></label>
             </fieldset>
             <input type="submit" value="Send Report" class="submitBtn" name="submit">
         </form>

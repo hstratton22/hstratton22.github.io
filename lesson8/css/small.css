@@ -402,7 +402,7 @@ form label.top input, form label.top select {
     -webkit-appearance:none;
     display: block; 
     font-size: .75rem;
-    border: solid 1 px #17244D;
+    border: solid 1px #17244D;
     border-radius: 4px;
     padding: .75rem;
     /*color: #17244D;*/
