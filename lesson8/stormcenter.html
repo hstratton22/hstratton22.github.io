@@ -43,7 +43,7 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Personal Information</legend>
-                <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-z].{5,}"  required></label>
+                <label class="top">Full name* <input type="text" name="name" pattern="[A-Za-z].{5,}"  required></label>
                 <label class="top">Phone* <input type="tel" name="phone" placeholder="###-###-####" required></label>
                 <label class="top">Zip code*<input type="number" name="zipcode" required></label>
                 <label class="top">Email <input type="email" name="email" placeholder="someone@email.com"></label>
@@ -65,10 +65,11 @@
         
     
                
-               <label class="sbs"><div>Severity </div> <input type="range"  id="rating" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" list="tickmarks" name="range" value="10" min="1" max="10" step="1"><span id="ratingvalue">10</span></label>
+               <label class="sbs"><div>Severity </div> <input type="range"  class="slider" id="rating" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" list="tickmarks" name="range" value="10" min="0" max="10" step="1"><br><span id="ratingvalue"> 10</span></label>
                <datalist id="tickmarks">
+                    <option value="0" label="0"></option>
                   
-                   <option value="1" label="2"></option>
+                   <option value="1" label="1"></option>
                    <option value="2" label="2"></option>
                    <option value="3" label="3"></option>
                    <option value="4" label="4"></option>
@@ -103,7 +104,7 @@
                     <label for="comments" class="sbs"><textarea name="textarea" id="comments" rows="5" cols="25"></textarea></label>
                 
 -->
-                <label class="comments"><div>Comments</div><textarea name="comments" rows="5" cols="25"></textarea></label>
+                <label class="comments"><div>Comments</div><textarea name="comments" rows="5" cols="30"></textarea></label>
             </fieldset>
             <input type="submit" value="Send Report" class="submitBtn" name="submit">
         </form>
