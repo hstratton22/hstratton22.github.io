@@ -485,8 +485,16 @@ input#rating.slider {
 .slider::-webkit-slider-thumb {
     -webkit-appearance:none;
     appearance:none;
+    width:15px;
+    border-radius:5px;
+    height:30px;
+    background: #7A8FCC;
+    cursor: pointer;
+}
+.slider::-moz-range-thumb {
     width:20px;
     height:30px;
+    border-radius:50%;
     background: #7A8FCC;
     cursor: pointer;
 }
