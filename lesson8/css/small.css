@@ -408,7 +408,7 @@ form label.top input, form label.top select {
    
     color: #263D80;
     width: 100%;
-    max-width: 20rem;
+    max-width: 19rem;
    /* background-color: rgba(89, 104, 149, 0.4);*/
     background-color: rgba(122,143,204, 0.3);
 
@@ -418,12 +418,12 @@ form div {
 }
 form label.sbs {
     display: block;
-    padding: .75rem 0;
+    padding: .25rem 0;
     color: #263D80;
     
-   
-    
 }
+
+
 form label.top input:required {
     box-shadow: 0 0 10px #263D80;
 }
@@ -432,7 +432,9 @@ form label.top input:required:valid {
 
 }
 span#ratingvalue {
-    margin-top: -.25rem;
+    margin-top: -.5rem;
+    color: #263D80;
+    
 }
 
 form label.comments {
@@ -444,7 +446,7 @@ form label.comments {
 }
 textarea#comments {
     width:100%;
-    max-width:20rem;
+    max-width:19rem;
     border-radius:4px;
     border: solid 1px #263D80;
 }
@@ -458,7 +460,7 @@ form input.submitBtn {
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 96%;
-    max-width: 20rem;
+    max-width: 19rem;
 
 
 }
@@ -468,15 +470,33 @@ input#rating.slider {
     
     height:25px;
     outline: none;
+    margin:0;
     
     font-size:.75rem;
     padding: 8px;
     border-radius: 4px;
+    border: solid 1px #17244D;
+    width: 100%;
+    max-width: 19rem;
     
 
     
 }
-
+.slider::-webkit-slider-thumb {
+    -webkit-appearance:none;
+    appearance:none;
+    width:20px;
+    height:30px;
+    background: #7A8FCC;
+    cursor: pointer;
+}
+/*form input.slider {
+    
+    margin: 0;
+    border: solid 1px #17244D;
+    width: 100%;
+    max-width: 19rem;
+}
 
 form input.submitBtn:hover {
     background-color:  #7A8FCC;
@@ -484,14 +504,7 @@ form input.submitBtn:hover {
 
 }
 
-form input.slider {
-    
-    
-    margin: 0;
-    border: solid 1px #17244D;
-    width: 100%;
-    max-width: 20rem;
-}
+
 /*======thanks=======*/
 .thanks h1{
     padding:1rem;
