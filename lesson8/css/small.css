@@ -421,7 +421,13 @@ form label.sbs {
    
     
 }
+form label.top input:required {
+    box-shadow: 0 0 10px #263D80;
+}
+form label.top input:required:valid {
+    box-shadow: none;
 
+}
 span#ratingvalue {
     margin-top: -.25rem;
 }

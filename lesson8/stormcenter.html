@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
-   <!--     <link href="https://fonts.googleapis.com/css?family=Merriweather&7cMerriweather+Sans&display=swap" rel="stylesheet">-->
+   
         <link rel="shortcut icon" href="../favicon.ico">
     </head>
     <body onload= "showBanner()">
@@ -43,9 +43,9 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Personal Information</legend>
-                <label class="top">Full name* <input type="text" name="name" pattern="[A-Za-z].{5,}"  required></label>
-                <label class="top">Phone* <input type="tel" name="phone" placeholder="###-###-####" required></label>
-                <label class="top">Zip code*<input type="number" name="zipcode" required></label>
+                <label class="top">Full name* <input type="text" name="name" pattern="[A-Za-z].{5,}" title="Minimum 5 letters" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="##########" pattern="[0-9]{10}" title="Numbers only" required></label>
+                <label class="top">Zip code*<input type="number" name="zipcode" pattern= "{[0-9]{5,9}" title="Numbers only, no -" required></label>
                 <label class="top">Email <input type="email" name="email" placeholder="someone@email.com"></label>
                 
             </fieldset>
@@ -98,12 +98,10 @@
                 <div>My Danger Level</div>
               
                 <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
-                <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
-                <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
-    <!--            <div>Comments</div>
-                    <label for="comments" class="sbs"><textarea name="textarea" id="comments" rows="5" cols="25"></textarea></label>
                 
--->
+                <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+    
                 <label for="comments" class="comments">Comments </label>
                 <textarea name="comments" id="comments" rows="5" cols="30"></textarea>
             </fieldset>
