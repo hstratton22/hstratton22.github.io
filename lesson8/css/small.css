@@ -398,6 +398,9 @@ form label.top, form div {
     color:   #263D80;
     font-size: .8rem;
 }
+form div {
+    padding-bottom:.25rem;
+}
 form label.top input, form label.top select {
     -webkit-appearance:none;
     display: block; 
