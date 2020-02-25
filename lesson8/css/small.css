@@ -427,7 +427,7 @@ form label.sbs {
 
 }*/
 span#ratingvalue {
-    padding: -.5rem;
+    margin-top: -.25rem;
 }
 
 form label.comments {
@@ -459,6 +459,7 @@ input#rating.slider {
     outline: none;
     /*opacity:0.8;*/
     font-size:.75rem;
+    padding: 8px;
     
 
     
