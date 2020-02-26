@@ -406,10 +406,14 @@ form label.top input, form label.top select {
     color: #263D80;
     width: 100%;
     max-width: 19rem;
-   /* background-color: rgba(89, 104, 149, 0.4);*/
+   
     background-color: rgba(122,143,204, 0.3);
 
 }
+/*form label.top select {
+    width:100%;
+    margin:0;
+}*/
 form div {
     margin-bottom: -.25rem;
 }
