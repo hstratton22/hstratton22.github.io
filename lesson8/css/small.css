@@ -427,9 +427,9 @@ form label.sbs {
 :-ms-input-placeholder {/*IE 10-11*/
     color: #263D80;
 }
-::ms-input-placeholder {/*Edge*/
-    color: #263D80;
-}
+/*::ms-input-placeholder {/*Edge*/
+   /* color: #263D80;
+}*/
 
 
 form label.top input:required {
