@@ -396,7 +396,7 @@ form label.top, form div {
 form div {
     padding-bottom:.25rem;
 }
-form label.top input, select, textarea {
+form label.top input, textarea {
     -webkit-appearance:none;
     display: block; 
     font-size: 1rem;
@@ -411,11 +411,20 @@ form label.top input, select, textarea {
     background-color: rgba(122,143,204, 0.3);
 
 }
-/*form label.top select {
-    width:100px;
+form label.top select {
+    -webkit-appearance:none;
+    width:330px;
+    display: block; 
+    font-size: 1rem;
+    border: solid 1px #17244D;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #263D80;
+    
+    background-color: rgba(122,143,204, 0.3);
 
 }
-*/
+
 
 form label.sbs {
     display: block;
@@ -446,6 +455,7 @@ form label.top input:required:valid {
 span#ratingvalue {
     margin-top: -.5rem;
     color: #263D80;
+    font-size:1rem;
     
 }
 
