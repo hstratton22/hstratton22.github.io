@@ -396,7 +396,7 @@ form label.top, form div {
 form div {
     padding-bottom:.25rem;
 }
-form label.top input, form label.top select, textarea {
+form label.top input, select, textarea {
     -webkit-appearance:none;
     display: block; 
     font-size: 1rem;
@@ -411,7 +411,11 @@ form label.top input, form label.top select, textarea {
     background-color: rgba(122,143,204, 0.3);
 
 }
+/*form label.top select {
+    width:100px;
 
+}
+*/
 
 form label.sbs {
     display: block;
