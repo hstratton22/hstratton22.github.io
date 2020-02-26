@@ -385,6 +385,7 @@ form legend {
     color: #263D80;
     margin: 0 1rem;
     padding: 0 .5rem;
+    font-weight:bold;
 }
 form label.top, form div {
     display: block;
@@ -421,6 +422,7 @@ form label.sbs {
     display: block;
     padding: .25rem 0;
     color: #263D80;
+    font-size:.8rem;
     
 }
 
