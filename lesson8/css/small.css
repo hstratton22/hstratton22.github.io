@@ -372,6 +372,7 @@ h4 {color:#263D80;}
     text-align: left;
     display: block;
     border-radius: 5px;
+    max-width: 21.5rem;
     
 }
 form fieldset {
@@ -486,9 +487,10 @@ form input.submitBtn {
     color:white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 19rem;
+    /*margin: 0 0 2rem 2%;*/
+    width: 100%;
+    max-width: 16rem;
+    /*box-sizing: content-box;*/
 
 
 }
