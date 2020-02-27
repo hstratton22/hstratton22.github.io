@@ -535,11 +535,12 @@ input#rating.slider {
     border: solid 1px #17244D;
     width: 100%;
     max-width: 19rem;
-}
+}*/
 
 form input.submitBtn:hover {
     background-color:  #7A8FCC;
     color:#17244D;
+    
 
 }
 
