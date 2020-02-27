@@ -395,7 +395,8 @@ form label.top, form div {
     font-size: .8rem;
 }
 form div {
-    padding-bottom:.25rem;
+    /*padding-bottom:.25rem;*/
+    margin-bottom:-.25rem;
 }
 form label.top input, textarea {
     -webkit-appearance:none;
@@ -431,7 +432,7 @@ form label.sbs {
     display: block;
     padding: .5rem 0;
     color: #263D80;
-    font-size:.8rem;
+    font-size:1rem;
     
 }
 
@@ -456,7 +457,7 @@ form label.top input:required:valid {
 span#ratingvalue {
     margin-top: -.5rem;
     color: #263D80;
-    font-size:1rem;
+    font-size:1.25rem;
     
 }
 
