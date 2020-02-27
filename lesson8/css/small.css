@@ -487,7 +487,8 @@ form input.submitBtn {
     color:white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    /*margin: 0 0 2rem 2%;*/
+    /*margin: 0 0 2rem 2%;
+    margin:0 0 0 .25rem;*/
     width: 100%;
     max-width: 16rem;
     /*box-sizing: content-box;*/
