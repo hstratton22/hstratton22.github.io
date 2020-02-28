@@ -9,6 +9,7 @@ fetch(requestURL)
     console.table(jsonObject);        // temporary checking for valid response and data parsing 
     const towns = jsonObject['towns'];
    for (let i = 0; i < towns.length; i++ ) {
+       if (i==1 ||i==4 || i==5 ) {
     let card = document.createElement('section');
       let h4 = document.createElement('h4');
       let h3= document.createElement('h3');
@@ -38,6 +39,7 @@ card.appendChild(rain);
 //card.appendChild(image);
 
 document.querySelector('div.townInfo').appendChild(card);
+}
 }
 });
   
