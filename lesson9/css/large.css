@@ -109,5 +109,12 @@
         /*background: linear-gradient(to bottom, #1e5799 0%,#ff3232 0%,#aa0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#aa0000',GradientType=0 ); /* IE6-9 */
         
+/*========home=========*/
+div.townInfo {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 1rem;
+}
 
     }
