@@ -16,7 +16,7 @@ fetch(requestURL)
       let year = document.createElement('p');
       let pop = document.createElement('p');
       let rain = document.createElement('p');
-     // let image = document.createElement('img');
+      let image = document.createElement('img');
 
 
 
@@ -25,9 +25,8 @@ h4.textContent = towns[i].motto;
 year.textContent = "Year Founded: " + towns[i].yearFounded;
 pop.textContent = "Population: " + towns[i].currentPopulation;
 rain.textContent = "Annual Fain Fall: " + towns[i].averageRainfall;
-
-//image.setAttribute('src', prophets[i].imageurl);
-//image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + '-' + [i]);
+image.setAttribute('src', "images/" + towns[i].photo);
+image.setAttribute('alt', towns[i].name + ' ' + 'image');
 
 
 card.appendChild(h3);
@@ -35,8 +34,7 @@ card.appendChild(h4);
 card.appendChild(year);
 card.appendChild(pop);
 card.appendChild(rain);
-
-//card.appendChild(image);
+card.appendChild(image);
 
 document.querySelector('div.townInfo').appendChild(card);
 }
