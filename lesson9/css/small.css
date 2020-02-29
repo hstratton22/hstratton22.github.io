@@ -1,3 +1,4 @@
+/*===========banner======*/
 #banner {
     margin:0;
     padding:1px 0;
@@ -18,11 +19,12 @@
 .noshow {
     display:none;
 }
+/*=========================*/
 header { 
     display: flex;
     align-items:center;
     justify-content:center;
-    border-radius: 50px 50px 5px 5px;
+    border-radius: 50px 50px 0 0;
     margin-bottom: -1rem;
     
     
@@ -55,6 +57,7 @@ a {
     max-height:75px;
     
 }
+/*==============nav==========*/
 nav ul.hide {
     display: none;
 }
@@ -109,6 +112,7 @@ nav ul li a:hover {
     background-color:#596895;
     color:white;
 }
+/*=================================*/
 body {
     
     
@@ -137,13 +141,13 @@ main {
     margin-bottom:1rem;
     position:relative;
 }
-
+/*========article========*/
  article {
    
     text-align:left;
     display:flex;
     flex-direction: column-reverse;
-    border:1px solid #17244D;
+    border: 1px solid  #263D80;
     background-color: rgba(122,143,204,0.3);
     padding:.75rem;
     max-width:1020px;
@@ -174,22 +178,26 @@ article p {
      margin-left:.75rem;
      
  } 
- 
+ /*=============================*/
 .city {
     margin-top:-.25rem;
     
-
+/*==============contactinfo=====*/
 }
 .contactinfo {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap:.5rem;
-    padding: 1.25rem;
-    margin:0 -.5rem;
+    padding: .5rem 1.25rem;
+    margin:0 .25rem;
     margin-bottom: -1rem;
     text-align:left;
-    border:1px solid #17244D;
+    /*border:1px solid #17244D;*/
+    border: 1px solid  #263D80;
     background-color: rgba(122,143,204,0.3);
+    max-width: 980px;
+    /*border-radius: 0 0 5px 5px;*/
+    
 
 }
 .contactinfo ul li {
@@ -222,7 +230,7 @@ article p {
     margin:auto;*/
 display: none;
 }
-
+/*===========summary=============*/
 .summary {
     position:absolute;
     top:1.25rem;
@@ -300,12 +308,12 @@ display: none;
     margin: 0;
     
 }
-
+/*=======forecast============*/
 .forecast {
     display:none;
 
 }
-
+/*===========================*/
 header, footer {
     background-color: #263D80;
     margin: 1rem auto;
@@ -315,7 +323,7 @@ footer {
     color:white;
     padding: .5rem 0;
     text-align:center;
-    border-radius: 5px 5px 50px 50px;
+    border-radius: 0 0 50px 50px;
     max-width:1020px;
     font-family: 'Merriweather', serif;
 }
@@ -583,6 +591,9 @@ div.townInfo h3{
 div.townInfo h4 {
     font-style: italic;
     margin-top: -1.25rem;
+}
+div.townInfo p {
+    line-height: .5;
 }
 
 
