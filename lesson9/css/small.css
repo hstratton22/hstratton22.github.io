@@ -567,17 +567,19 @@ form input.submitBtn:hover {
 div.townInfo {
     display:grid;
     grid-template-columns:1fr;
-    grid-gap: 2rem;
+    grid-gap: .5rem;
     padding: 1rem;
     border: 1px solid #7A8FCC;
     box-shadow: 0 5px 10px 10px #263D80;
     margin-bottom: 1rem;
+    /*max-width:1020px;*/
 
     
 }
 div.townInfo  section{
     background-color: rgba(122,143,204,0.3);
     box-shadow: 5px 10px 15px #263D80;
+    padding:.5rem;
     
 
 }

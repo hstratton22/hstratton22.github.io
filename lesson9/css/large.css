@@ -115,6 +115,7 @@ div.townInfo {
     grid-template-columns:1fr 1fr 1fr;
     grid-gap: 2rem;
     padding: 1rem;
+    /*max-width:1020px;*/
 }
 
     }

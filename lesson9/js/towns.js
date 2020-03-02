@@ -26,7 +26,7 @@ year.textContent = "Year Founded: " + towns[i].yearFounded;
 pop.textContent = "Population: " + towns[i].currentPopulation;
 rain.textContent = "Annual Fain Fall: " + towns[i].averageRainfall;
 image.setAttribute('src', "images/" + towns[i].photo);
-image.setAttribute('alt', towns[i].name + ' ' + 'image');
+image.setAttribute('alt', towns[i].name );
 
 
 card.appendChild(h3);

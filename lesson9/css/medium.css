@@ -160,9 +160,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     margin-bottom:1rem;
             
 }
-.forecast h4 {
+/*.forecast h4 {
     
-}
+}*/
 .fiveday {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -222,13 +222,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
       
 
   }
+ 
   /*=================home=======*/
-  /*div .townInfo img{
-      float:right;
+  /*div.townInfo section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    
+  }
+  div.townInfo section h3, h4, p {
+      grid-column: 1;
+  }
+  div.townInfo section img{
+      grid-column: 2;
 
+
+  }  */
+  
+  /*div.townInfo img:nth-of-type(even) img{
+      float:left;
 
   }
-  div .townInfo img:nth-child(even){
-      float:left;
-  }*/
+  div.townInfo img:nth-of-type(odd) img{
+    float:right;*/
+  div.townInfo section img {
+      float:right;
+      
+  }
 }
