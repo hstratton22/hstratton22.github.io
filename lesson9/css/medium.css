@@ -231,9 +231,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
   }
   div.townInfo section h3, h4, p {
       grid-column: 1;
+      grid-row: 1/6;
   }
+  div.townInfo section h3 {
+      grid-row:1;
+  }
+  div.townInfo section h4 {
+      grid-row:2;
+
+  }
+  div.townInfo section p {
+      grid-row: 3 / 6;
+  }
+
   div.townInfo section img{
       grid-column: 2;
+      grid-row: 1/6;
 
 
   }  */
