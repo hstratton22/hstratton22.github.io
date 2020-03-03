@@ -36,6 +36,7 @@ card.appendChild(pop);
 card.appendChild(rain);
 card.appendChild(image);
 
+
 document.querySelector('div.townInfo').appendChild(card);
 }
 }

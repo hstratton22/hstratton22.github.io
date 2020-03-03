@@ -256,9 +256,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
   }
   div.townInfo img:nth-of-type(odd) img{
-    float:right;*/
-  div.townInfo section img {
+    float:right;}*/
+ /*div.townInfo section img {
       float:right;
       
-  }
+  }*/
 }
