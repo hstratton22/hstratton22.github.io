@@ -28,13 +28,18 @@ rain.textContent = "Annual Fain Fall: " + towns[i].averageRainfall;
 image.setAttribute('src', "images/" + towns[i].photo);
 image.setAttribute('alt', towns[i].name );
 
+pop.setAttribute('class', 'pop');
+year.setAttribute('class', 'year');
+rain.setAttribute('class', 'rain');
+image.setAttribute('class', 'image');
 
+card.appendChild(image);
 card.appendChild(h3);
 card.appendChild(h4);
 card.appendChild(year);
 card.appendChild(pop);
 card.appendChild(rain);
-card.appendChild(image);
+
 
 
 document.querySelector('div.townInfo').appendChild(card);

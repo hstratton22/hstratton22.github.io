@@ -113,9 +113,24 @@
 div.townInfo {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
     padding: 1rem;
-    /*max-width:1020px;*/
+    width:980px;
+    box-shadow: 0 5px 10px 5px #263D80;
+}
+div.townInfo section {
+    width: 300px;
+    box-shadow: 5px 10px 5px #263D80;
+}
+div.townInfo section:nth-child(even) img{
+    float:clear;
+
+}
+div.townInfo section:nth-child(odd) img{
+  float:clear;}
+div.townInfo img {
+    width:300px;
+    padding-bottom: 1rem;
 }
 
     }

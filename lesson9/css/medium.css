@@ -251,14 +251,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
   }  */
   
-  /*div.townInfo img:nth-of-type(even) img{
-      float:left;
-
-  }
-  div.townInfo img:nth-of-type(odd) img{
-    float:right;}*/
+  
  /*div.townInfo section img {
       float:right;
       
   }*/
+ /* div.townInfo {
+      width: 680px;
+      
+     
+      
+  }*/
+  div.townInfo section {
+      width: 600px;
+  }
+  div.townInfo img {
+    width: 380px;
+  }
+  div.townInfo h3 {
+      line-height: 1;
+  }
+  div.townInfo section:nth-child(even) img{
+    float:left;
+
+}
+div.townInfo section:nth-child(odd) img{
+  float:right;}
 }
