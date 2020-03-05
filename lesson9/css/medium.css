@@ -279,7 +279,7 @@ div.townInfo section:nth-child(odd) img{
   div.townInfo section {
       display:flex;
       max-width: 660px;
-      flex-direction: columns;
+      flex-direction: row;
 
   }
   div.townInfo section:nth-child(even) {
