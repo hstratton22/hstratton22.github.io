@@ -28,6 +28,10 @@ img {
    
 
 }
+footer {
+    margin:1rem;
+    text-align:center;
+}
 p {
     font-family:'Roboto', Verdana, sans-serif;
     line-height: .5;
