@@ -142,7 +142,13 @@ main {
     position:relative;
 }
 /*========article========*/
- article {
+ 
+.topstory h4{
+    text-align:left;
+    margin:0;
+     
+}
+article {
    
     text-align:left;
     display:flex;
@@ -578,11 +584,14 @@ div.townInfo {
 }
 div.townInfo  section{
     background-color: rgba(122,143,204,0.3);
-    box-shadow: 5px 10px 15px #263D80;
+    box-shadow: 5px 10px 12px #263D80;
     padding:.5rem;
     
     
 
+}
+div.townInfo section div {
+    padding:1rem 0;
 }
 div.townInfo h3{
     font-size: 2rem;
@@ -597,6 +606,10 @@ div.townInfo h4 {
 }
 div.townInfo p {
     line-height: .5;
+}
+div.townInfo img {
+    box-shadow: 0 0 10px #263D80;
+   max-width:100%;
 }
 
 
