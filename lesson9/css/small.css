@@ -148,7 +148,9 @@ main {
     margin:0;
      
 }
-
+.top {
+    font-size:.75rem;
+}
 article {
    
     text-align:left;
