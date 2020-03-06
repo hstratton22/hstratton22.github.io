@@ -187,9 +187,13 @@ article p {
  /*=============================*/
 .city {
     margin-top:-.25rem;
-    
-/*==============contactinfo=====*/
+
 }
+.welcome {
+    font-style: italic;
+}   
+/*==============contactinfo=====*/
+
 .contactinfo {
     display: grid;
     grid-template-columns: 1fr 1fr;
