@@ -55,7 +55,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     p.author{ 
         margin-left: 1rem;
 
-    }/*
+    }
+    article  p{
+        text-align:left;
+        text-justify:auto;
+    }
+    
+    .articleimage {
+        box-shadow: 5px 5px 15px #263D80;
+        margin:.25rem;
+    }
+    /*
     article p {
         text-align:left;
         margin-left: 1rem;
