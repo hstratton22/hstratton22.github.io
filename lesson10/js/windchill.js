@@ -25,7 +25,7 @@ document.getElementById('icon').setAttribute('alt', desc);
     if (t<=50 && s>=3.0) {
     
     f = 35.74 + 0.6215*t - 35.75*s**0.16 + 0.4275*t*s**0.16;
-    f= f.toFixed(0);
+    f= f.toFixed(0) + "&#8457;";
     }
     else {f= "N/A";}
    
