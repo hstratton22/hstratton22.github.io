@@ -61,10 +61,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
         text-justify:auto;
     }
     
-    .articleimage {
-        box-shadow: 5px 5px 15px #263D80;
-        margin:.25rem;
-    }
+    
     /*
     article p {
         text-align:left;

@@ -10,12 +10,24 @@ fetch(apiURL)
     document.getElementById('humidity').textContent = jsObject.list[0].main.humidity;
     
     
-/*    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
-const desc = jsObject.weather[0].description;  // note how we reference the weather array
-document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
+   //const time = jsObject.list;
+   //for (let i=0; i>time.length; i++) {
+    // if ("18:00:00" in time[i].dt_txt) {
+   //   let icon = time[i].weather[0].icon;
+   //const ic
+   //document.getElementById('icon').textContent = jsObject.list[i].main.temp.toFixed(0);
+
+   // }
+  // }
+    //
+    
+    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[0].weather[0].icon + '.png';  // note the concatenation
+const desc = jsObject.list[0].weather[0].description;  // note how we reference the weather array
+document.getElementById('day1temp').textContent = jsObject.list[0].main.temp.toFixed(0);  // informational specification only
+
 document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
 document.getElementById('icon').setAttribute('alt', desc);
-  */ });
+   });
 
    /*==================windchill===============================*/ 
     let t = parseFloat(document.getElementById("temp").textContent);
