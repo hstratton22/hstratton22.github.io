@@ -10,10 +10,27 @@ fetch(apiURL)
     document.getElementById('humidity').textContent = jsObject.list[0].main.humidity;
     
     
-   //const time = jsObject.list;
-   //for (let i=0; i>time.length; i++) {
-    // if ("18:00:00" in time[i].dt_txt) {
-   //   let icon = time[i].weather[0].icon;
+   const time = jsObject.list;
+   let dtemp= 1;
+   for (let i=0; i<time.length; i++) {
+    
+    if (time[i].dt_txt.includes("18:00:00")) {
+       
+      let icon = time[i].weather[0].icon;
+   let descr= time[i].weather[0].description;
+   let iconsrc= 'https://openweathermap.org/img/w/' + icon + '.png';
+   let daytemp = jsObject.list[i].main.temp.toFixed(0);
+
+   
+   let mytemp="daytemp" + dtemp;
+   let myicon= "icon" + dtemp;
+   document.getElementById(mytemp).innerHTML= daytemp + "&#8457;";
+   document.getElementById(myicon).setAttribute('src', iconsrc);
+   document.getElementById(myicon).setAttribute('alt', descr);
+   dtemp+=1;
+   
+
+     }}
    //const ic
    //document.getElementById('icon').textContent = jsObject.list[i].main.temp.toFixed(0);
 
@@ -21,13 +38,13 @@ fetch(apiURL)
   // }
     //
     
-    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[0].weather[0].icon + '.png';  // note the concatenation
+   /* const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[0].weather[0].icon + '.png';  // note the concatenation
 const desc = jsObject.list[0].weather[0].description;  // note how we reference the weather array
 document.getElementById('day1temp').textContent = jsObject.list[0].main.temp.toFixed(0);  // informational specification only
 
 document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-document.getElementById('icon').setAttribute('alt', desc);
-   });
+document.getElementById('icon').setAttribute('alt', desc);*/
+    });
 
    /*==================windchill===============================*/ 
     let t = parseFloat(document.getElementById("temp").textContent);
