@@ -54,12 +54,7 @@ fetch(apiURL)
 
      }}
    
-      /* const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[0].weather[0].icon + '.png';  // note the concatenation
-const desc = jsObject.list[0].weather[0].description;  // note how we reference the weather array
-document.getElementById('day1temp').textContent = jsObject.list[0].main.temp.toFixed(0);  // informational specification only
-
-document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-document.getElementById('icon').setAttribute('alt', desc);*/
+     
     });
 
    /*==================windchill===============================*/ 
