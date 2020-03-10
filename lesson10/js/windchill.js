@@ -15,7 +15,7 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    document.getElementById('current').textContent = jsObject.list[0].main.temp.toFixed(0);
+    document.getElementById('current').textContent = jsObject.list[0].weather[0].main;
     document.getElementById('temp').textContent = jsObject.list[0].main.temp_max.toFixed(0);
     document.getElementById('windspeed').textContent = jsObject.list[0].wind.speed.toFixed(0);
     document.getElementById('humidity').textContent = jsObject.list[0].main.humidity;
