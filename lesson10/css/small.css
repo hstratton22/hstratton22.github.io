@@ -201,9 +201,11 @@ article p {
 .contactinfo {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap:.5rem;
-    padding: .5rem 1.25rem;
-    margin:0 .25rem;
+    grid-gap:0;
+    /*display: flex;
+    flex-direction: column;*/
+    padding: .25rem;
+    margin: 0 auto;
     margin-bottom: -1rem;
     text-align:left;
     /*border:1px solid #17244D;*/
@@ -220,6 +222,12 @@ article p {
     
     
 }
+.contact2 {
+    font-size:.75rem;
+}
+/*div.contentbox.contactinfo {
+    margin:1rem;
+}*/
 .socialmedia {
     display:flex;
     flex-direction: row;
