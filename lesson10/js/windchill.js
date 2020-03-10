@@ -1,4 +1,15 @@
 
+const d= new Date();
+const todayDayNum= d.getDay();
+const weekday= [];
+weekday[0] ="Sun";
+weekday[1] ="Mon";
+weekday[2] ="Tue";
+weekday[3] ="Wed";
+weekday[4] = "Thu";
+weekday[5] ="Fri";
+weekday[6] ="Sat";
+
 const apiURL="https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=e7e99f72ef4dc80d87dfcaa6b6420751";
 fetch(apiURL)
   .then((response) => response.json())
@@ -12,9 +23,11 @@ fetch(apiURL)
     
    const time = jsObject.list;
    let dtemp= 1;
+   let forecastDayNum=todayDayNum;
    for (let i=0; i<time.length; i++) {
     
     if (time[i].dt_txt.includes("18:00:00")) {
+      
        
       let icon = time[i].weather[0].icon;
    let descr= time[i].weather[0].description;
@@ -27,8 +40,17 @@ fetch(apiURL)
    document.getElementById(mytemp).innerHTML= daytemp + "&#8457;";
    document.getElementById(myicon).setAttribute('src', iconsrc);
    document.getElementById(myicon).setAttribute('alt', descr);
+
+   forecastDayNum+=1;
+    if(forecastDayNum===7) {
+      forecastDayNum=0;}
+     
+      let myweekday= "weekday" +dtemp;
+      document.getElementById(myweekday).innerHTML=weekday[forecastDayNum];
+
    dtemp+=1;
    
+
 
      }}
    
