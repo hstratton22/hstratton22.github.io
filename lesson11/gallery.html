@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Preston weather Gallery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="City of Preston weather image gallery">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+   <!--     <link href="https://fonts.googleapis.com/css?family=Merriweather&7cMerriweather+Sans&display=swap" rel="stylesheet">-->
+        <link rel="shortcut icon" href="../favicon.ico">
+    </head>
+    <body onload= "showBanner()">
+        <section  id="banner" class="noshow">
+           <h1>Saturday = Preston Pancakes in the Park!<br>
+            9:00 a.m. Saturday at the city park pavilion.</h1>
+        </section>
+    <header>
+
+        <img class="logo" src="images/iconmedweb.jpg" alt="weatherornot logo">
+        <section class="headings">
+            <h1> Weather or Not</h1>
+            <div class="motto"><p>Helping you plan your day</p></div>
+        </section>
+    </header>
+    
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="topNav" class="hide">
+                <li class="menu"><a href="#">Menu</a></li>
+                <li><a href="../lesson9/index.html">Home</a> </li>
+                <li><a href="../lesson6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+                <li class="active"><a href="gallery-7.html">Gallery</a>
+                </ul>
+            
+        </nav>
+    <main>
+        <h2>Gallery</h2>
+        <section class="gallery">
+        <div class="photobox"><picture><img src="images/placeholder400x225.png" data-src="images/galleryA400.jpg" alt="sun rays on mountains"></picture><p>Bright sunrays penetrate through dark clouds lighting this barren valley.</p></div>
+        <div class="photobox"><picture><img src="images/placeholder400x225.png" data-src="images/galleryB400.jpg" alt="clouds in sky"></picture><p>Colorful clouds paint the brilliant blue sky with contrast.</p></div>
+        <div class="photobox"><picture><img src="images/placeholder400x225.png" data-src="images/galleryC400.jpg" alt="lightening hitting ground"></picture><p>A very dramatic display of punishment warns sinners.</p></div>
+        <div class="photobox"><picture><img src="images/placeholder400x225.png" data-src="images/galleryD400.jpg" alt="farmland"></picture><p>Leading lines add visual interest to this lonely landscape.</p></div>
+        <div class="photobox"><picture><img src="images/placeholder400x225.png" data-src="images/galleryE400.jpg" alt="valley through clouds"></picture><p>As if in a dream, clouds part revealing a glimpse of the enchanted village below.</p></div>
+        <div class="photobox"><picture><img src="images/placeholder400x225.png" data-src="images/galleryF400.jpg" alt="lightening and path"></picture><p>Lightening stretches its tentacles, reaching to earth.</p></div>
+        <div class="photobox"><picture><img src="images/placeholder400x225.png" data-src="images/galleryG400.jpg" alt="rainbow"></picture><p>Quickly! Another portal has opened.</p></div>
+        <div class="photobox"><picture><img src="images/placeholder400x225.png" data-src="images/galleryH400.jpg" alt="sunset over lone house"></picture><p>Purple rain can only come from purple clouds.</p></div>
+        <div class="photobox"><picture><img src="images/placeholder400x225.png" data-src="images/galleryI400.jpg" alt="sun topping low clouds"></picture><p>Mashed potato clouds scorched with golden sunshine nestle into the grass.</p></div>
+    </section>
+    </main>
+    <footer>
+        &copy;Weather or Not | <a href="../index.html">Heather Stratton</a> <br>
+        <span id="currentDate"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+    <script>WebFont.load({google: {families:['Merriweather Sans', 'Merriweather']}});</script>
+    <script src="js/script.js"></script>
+ <script src="js/lazyload.js"></script>
+   
+</body>
+</html>

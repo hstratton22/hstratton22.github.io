@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Storm Center</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Storm Center">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+   
+        <link rel="shortcut icon" href="../favicon.ico">
+    </head>
+    <body onload= "showBanner()">
+        <section  id="banner" class="noshow">
+           <h1>Saturday = Preston Pancakes in the Park!<br>
+            9:00 a.m. Saturday at the city park pavilion.</h1>
+        </section>
+    <header>
+
+        <img class="logo" src="images/iconmedweb.jpg" alt="weatherornot logo">
+        <section class="headings">
+            <h1> Weather or Not</h1>
+            <div class="motto"><p>Helping you plan your day</p></div>
+        </section>
+    </header>
+    
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="topNav" class="hide">
+                <li class="menu"><a href="#">Menu</a></li>
+                <li><a href="../lesson9/index.html">Home</a> </li>
+                <li><a href="../lesson6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="../lesson7/gallery-7.html" >Gallery</a>
+                </ul>
+            
+        </nav>
+    <main class="report">
+        <h1 class="report">Report A Storm</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">Full name* <input type="text" name="name" pattern="[A-Za-z]{5,}" title="Minimum 5 letters" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="##########" pattern="[0-9]{10}" title="Numbers only, no -" required></label>
+                <label class="top">Zip code*<input type="number" name="zipcode"  title="Numbers only, no -" required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@email.com"></label>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Storm Details</legend>
+                
+                <label class="top">Storm Date<input type="date" name="date"></label>
+                
+               <label class="top">Storm Type<input list="stormtype" name="stormtype" ></label>
+               <datalist id="stormtype">
+                   <option value="Flash Flood"></option>
+                   <option value="Hail"></option>
+                   <option value="Hurricane"></option>
+                   <option value="Thunderstorm"></option>
+                   <option value="Tornado"></option>
+               </datalist>
+        
+    
+               <div>Severity</div>
+               <label class="sbs"> <input type="range"  class="slider" id="rating" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)" name="range" value="10" min="0" max="10" step="1"><br><span id="ratingvalue"> 10</span></label><!--list="tickmarks"-->
+             <!--  <datalist id="tickmarks">
+                    <option value="0" label="0"></option>
+                  
+                   <option value="1" label="1"></option>
+                   <option value="2" label="2"></option>
+                   <option value="3" label="3"></option>
+                   <option value="4" label="4"></option>
+                   <option value="5" label="5"></option>
+                   <option value="6" label="6"></option>
+                   <option value="7" label="7"></option>
+                   <option value="8" label="8"></option>
+                   <option value="9" label="9"></option>
+                   <option value="10" label="10"></option>
+               </datalist>
+               -->
+               
+    
+               
+               <label class="top">Region
+                   <select name="location">
+                       <option value="" disabled selected>Select Region &#9662;</option>
+                       <option value="fhaven">Fish Haven</option>
+                       <option value="preston">Preston</option>
+                       <option value="ssprings">Soda Springs</option>
+                   </select>
+
+               </label>
+            </fieldset>
+            <fieldset>
+                <legend>Extra</legend>
+                <div>Am In Danger?</div>
+              
+                <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                
+                <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+    
+                <label for="comments" class="comments">Comments </label>
+                <textarea name="comments" id="comments" rows="5" cols="30"></textarea>
+            </fieldset>
+            <input type="submit" value="Send Report" class="submitBtn" name="submit">
+        </form>
+    </main>
+    <footer>
+        &copy;Weather or Not | <a href="../index.html">Heather Stratton</a> <br>
+        <span id="currentDate"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+    <script>WebFont.load({google: {families:['Merriweather Sans', 'Merriweather']}});</script>
+    <script src="js/script.js"></script>
+
+   
+</body>
+</html>
