@@ -259,7 +259,7 @@ display: none;
     position:absolute;
     top:1.25rem;
     left:2.25rem;
-    
+    z-index:1;
     
     margin:0;
     width:165px;
