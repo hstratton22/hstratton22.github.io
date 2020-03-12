@@ -70,10 +70,21 @@ fetch(requestURL)
        if ( towns[i].name =="Preston" ) {
     let section = document.createElement('section');
     let h4 = document.createElement('h4');
- 
-h4.textContent = towns[i].events;
+    let x;
+    for (let x=0; x < towns[i].events.length; x++) {
+      h4.textContent += towns[i].events[x] + "\n" ;
+      section.appendChild(h4);
+      
 
-section.appendChild(h4);
+
+    }
+ 
+
+   /* h4.textContent = towns[i].events[0];
+    h4.textContent = towns[i].events[1];
+    h4.textContent = towns[i].events[2];*/
+   // h4.textContent = towns[i].events;
+//section.appendChild(h4);
 
 document.querySelector('div.events').appendChild(section);
 }
