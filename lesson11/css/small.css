@@ -653,10 +653,13 @@ div.townInfo img {
 /*========events============*/
 div.events {
     line-height:2;
-    border: 3px solid #7A8FCC;
-    border-radius: 25px;
+    border: 7px solid #7A8FCC;
+    /*border-radius: 25px;*/
+    box-shadow:1px 1px 10px #263D80;
+    border-style: ridge;
+
     margin-bottom:1rem;
-    padding: 1rem;
+    padding: 1rem 2rem;
     
 }
 div.events h3 {
