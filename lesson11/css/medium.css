@@ -145,6 +145,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
        max-width:90%;
        margin:auto;
        align-self: start;
+       box-shadow: 1px 1px 15px #17244D;
       
 
        /*align-self: center;
