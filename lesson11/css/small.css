@@ -172,6 +172,15 @@ article {
     
     
 }
+article a {
+    color:#3D61CC;
+    text-decoration: underline;
+}
+article a:hover {
+    background-color:#3D61CC;
+    color:white;
+}
+
 article p {
     text-align: justify;
     text-justify: inter-word;
@@ -181,6 +190,7 @@ article p {
 .articleimage {
     max-width: 100%;
     margin: 0 auto;
+  
 }
  p.author {
      color:#263D80;
