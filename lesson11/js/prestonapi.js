@@ -72,7 +72,7 @@ fetch(requestURL)
     let h4 = document.createElement('h4');
     let x;
     for (let x=0; x < towns[i].events.length; x++) {
-      h4.textContent += towns[i].events[x] + "\n" ;
+      h4.innerHTML += towns[i].events[x] + "<br>" ;
       section.appendChild(h4);
       
 
