@@ -650,7 +650,20 @@ div.townInfo img {
    max-width:100%;
 }
 
-
+/*========events============*/
+div.events {
+    line-height:2;
+    border: 3px solid #7A8FCC;
+    border-radius: 25px;
+    margin-bottom:1rem;
+    padding: 1rem;
+    
+}
+div.events h3 {
+    margin:0 25%;
+    padding:.5rem;
+    border-radius: 25px;
+}
 
 
 
