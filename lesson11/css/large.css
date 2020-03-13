@@ -134,10 +134,7 @@
 
     }
     
-    /*.articleimage {
-        
-        margin:.25rem .25rem .25rem .5rem;*/
-        
+            
     article {
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
