@@ -64,7 +64,7 @@ fetch(requestURL)
   })
   
   .then(function (jsonObject) {
-    //console.table(jsonObject);        // temporary checking for valid response and data parsing 
+    //console.table(jsonObject);       
     const towns = jsonObject['towns'];
    for (let i = 0; i < towns.length; i++ ) {
        if ( towns[i].name =="Preston" ) {
@@ -80,11 +80,7 @@ fetch(requestURL)
     }
  
 
-   /* h4.textContent = towns[i].events[0];
-    h4.textContent = towns[i].events[1];
-    h4.textContent = towns[i].events[2];*/
-   // h4.textContent = towns[i].events;
-//section.appendChild(h4);
+   
 
 document.querySelector('div.events').appendChild(section);
 }
