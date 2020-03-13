@@ -207,6 +207,8 @@ article p {
 }
 .welcome {
     font-style: italic;
+    padding:.5rem;
+    border-radius: 25px;
 }   
 /*==============contactinfo=====*/
 
