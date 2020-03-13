@@ -94,6 +94,7 @@
     .articleimage {
         box-shadow: 5px 5px 15px #263D80;
         margin:.25rem;
+        width:100%;
     }
     .gallery {
         grid-template-columns: 1fr 1fr 1fr;
