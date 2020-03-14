@@ -257,7 +257,8 @@ article p {
     margin:0;
     width:165px;
     height:150px;
-    background:radial-gradient(#7A8FCC,#263D80);
+    /*background:radial-gradient(#7A8FCC,#263D80);*/
+    background:#263D80;
     padding:.5rem .25rem .25rem .25rem;
     display: grid;
     grid-template-columns: 3fr 2fr;
