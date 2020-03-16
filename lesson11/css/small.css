@@ -146,10 +146,16 @@ main {
 .topstory h4{
     text-align:left;
     margin:0;
+    
+    
      
+}
+h4.title {
+    margin-bottom: -.5rem;
 }
 .top {
     font-size:.75rem;
+    
 }
 article {
    
