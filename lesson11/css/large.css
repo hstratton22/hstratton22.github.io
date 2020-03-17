@@ -104,13 +104,14 @@
     .topstory article h4 {
         margin-left: .75rem;
     }
-    .topstory p.author{ 
-        margin-left: .75rem;
-
-    }
+    
     .topstory article p {
         text-align:left;
         margin-left: .75rem;
+    }
+    .topstory p.author{ 
+        margin-left: .75rem;
+
     }
     .topstory article {
         display:grid;
@@ -162,7 +163,7 @@ div.townInfo {
     grid-gap: 1rem;
     padding: 1rem;
     width:980px;
-    box-shadow: 0 5px 10px 5px #263D80;
+    /*box-shadow: 0 5px 10px 5px #263D80;*/
 }
 
 div.townInfo section {

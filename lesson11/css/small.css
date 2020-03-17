@@ -143,16 +143,16 @@ main {
 }
 /*========article========*/
  
-.topstory h4{
+h4.topstory {
     text-align:left;
     margin:0;
     
     
      
 }
-h4.title {
+/*h4.title {
     margin-bottom: -.5rem;
-}
+}*/
 .top {
     font-size:.75rem;
     
@@ -527,8 +527,9 @@ div.townInfo {
     grid-template-columns:1fr;
     grid-gap: .5rem;
     padding: 1rem;
-    border: 1px solid #7A8FCC;
-    box-shadow: 0 5px 10px 10px #263D80;
+    border: 2px solid #7A8FCC;
+    /*box-shadow: 0 5px 10px 10px #263D80;
+    background-color:#263D80;*/
     margin-bottom: 1rem;
         
 }
