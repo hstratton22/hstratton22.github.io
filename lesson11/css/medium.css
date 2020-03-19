@@ -23,6 +23,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     #windchill, #temp, #windspeed {
         margin:0;
     }
+    h4.top {
+        margin-bottom: -.25rem;
+    }
    
     article h4 {
         margin-bottom:0;

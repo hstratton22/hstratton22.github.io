@@ -134,6 +134,9 @@
         align-self:center;
 
     }
+    h4.top {
+        margin-bottom: -.25rem;
+    }
     
             
     article {
