@@ -180,5 +180,19 @@ div.townInfo img {
     width:100%;
     padding-bottom: 1rem;
 }
+/*============form================*/
+.report {
+    max-width: 50%;
+
+}
+form label.top input, textarea {
+    max-width: 70%;
+}
+input#rating.slider {
+    max-width:71%;
+}
+form label.top select {
+    width: 73%;
+}
 
     }
