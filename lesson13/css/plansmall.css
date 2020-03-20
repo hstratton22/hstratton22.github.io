@@ -1,0 +1,32 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    margin: 2%;
+}
+h1, h2, h3 {
+    font-family: 'Covered By Your Grace', cursive;
+}
+nav ul  {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+   
+
+}
+nav ul li {
+    padding: 0 1rem;
+    
+}
+div.persona {
+    margin: 1rem;
+}
+h1.title {
+    background-color: #177FFF;
+    color:#17ff82;
+    text-shadow: 2px 2px #195eb3;
+    border-bottom: 2px solid #ff6709;
+    border-top: 4px solid #195eb3;
+
+}
+h3 {
+    margin: 1rem;
+}
