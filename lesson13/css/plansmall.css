@@ -1,7 +1,8 @@
+/*#19B360; #17FF82; #FF6709; #195EB3; #177FFF;*/
 body {
     font-family: 'Oxygen', sans-serif;
     margin: 2% ;
-    background-color:#ff6709;
+    /*background-color:#ff6709;*/
     max-width: 1020px;
    
    
@@ -9,6 +10,7 @@ body {
 h1, h2, h3 {
     font-family: 'Covered By Your Grace', cursive;
 }
+
 nav ul  {
    
     list-style-type: none;
@@ -31,10 +33,11 @@ h1.title {
     border-bottom: 2px solid #ff6709;
     border-top: 4px solid  #177FFF;
     
-    /*background-color:#177fff;
+    
+}
+h4 {
+    background-color:#19B360;
     color:black;
-    text-shadow: 2px 2px #17ff82;*/
-
 }
 h3 {
     margin: 1rem;
@@ -43,7 +46,7 @@ main {
     background-color:white;
     padding: .5rem;
     color:#195eb3;
-    border:4px solid #177fff;
+    border:4px double #177fff;
     line-height:1.25;
     
 }
