@@ -77,11 +77,13 @@ nav.topNav ul{
     margin:0;
     text-align:left;
     
+    
+    
        
     
    }
 nav.topNav ul li {
-    padding: 0 10%;
+    padding: .5rem 10%;
     border-bottom: 1px solid #177fff;
     /*color:#17ff82;
     background-color:#195eb3;*/
@@ -110,10 +112,22 @@ nav.topNav ul li a:hover {
 }
 nav.topNav button {
     border: none;
-    background-color: transparent;
+    background-color:#195eb3;
     color:#17ff82;
     margin:.25rem;
     text-align: left;
+    padding:0;
+}
+nav.topNav button:focus{
+    outline:none;
+    
+}
+nav.topNav button:hover {
+    font-size:1.5rem;
+
+}
+nav.topNav ul.hide {
+    display: none;
 }
 
 /*=============footer=================*/

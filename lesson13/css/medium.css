@@ -35,10 +35,10 @@ section.testimonials img{
     grid-column: span 2;
 
 }
-section.testimonials div.text:nth-child(1) {
+/*section.testimonials div.text:nth-child(3) {
     grid-column: 1;
 
-}
+}*/
 section.testimonials h3 {
     font-size: 2rem;
     
