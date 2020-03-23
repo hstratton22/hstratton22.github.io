@@ -2,7 +2,7 @@
 
 body {
     max-width:1020px;
-    margin:2%;
+    margin:2% auto;
     font-family: 'Oxygen', sans-serif;
 }
 h1, h2, h3 {
@@ -45,10 +45,14 @@ main {
 }
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color:#195eb3;
     border: 4px solid  #177FFF;
+    text-align: center;
 
+}
+header img {
+    
 }
 
 
@@ -57,23 +61,74 @@ header {
 nav.topNav {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    font-weight: bold;
+    letter-spacing:2px;    
     margin:0;
+    color:#17ff82;
+    background-color:#195eb3;
 }
 
 
 nav.topNav ul{
     list-style-type: none;
-    
+    margin:0;
+       
     
    }
 nav.topNav ul li {
     padding: 0 10%;
-    border: 1px solid #177fff;
-    color:#17ff82;
-    background-color:#195eb3;
-    font-weight: bold;
-    letter-spacing:2px;
+    border-bottom: 1px solid #177fff;
+    /*color:#17ff82;
+    background-color:#195eb3;*/
+   
    
 }
+nav.topNav ul li.active a{
+    background:#17ff82;
+    color: #195eb3;
 
+}
+nav.topNav ul li a {
+    padding: ;
+    display: block;
+       
+    color:#17ff82;
+    background-color:#195eb3;
+    text-decoration: none;
+
+}
+
+nav.topNav ul li a:hover {
+    background:#17ff82;
+    color: #195eb3;
+
+}
+nav.topNav button {
+    border: none;
+    background-color: transparent;
+    color:#17ff82;
+    margin:.25rem;
+    text-align: left;
+}
+
+/*=============footer=================*/
+footer {
+    background-color:#195eb3;
+    border: 4px solid  #177FFF;
+    color:#17ff82;
+    margin: auto;
+    text-align:center;
+
+}
+footer a {
+    color: #17ff82;
+   
+
+}
+footer a:hover {
+    background:#17ff82;
+    color: #195eb3;
+    font-weight: bold;
+
+}
+/*=============================*/
