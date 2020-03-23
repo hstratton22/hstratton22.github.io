@@ -1,7 +1,8 @@
 /*#19B360; #17FF82; #FF6709; #195EB3; #177FFF;*/
 
 body {
-    max-width:1020px;
+    background-color:black;
+    
     margin:2% auto;
     font-family: 'Oxygen', sans-serif;
 }
@@ -20,6 +21,7 @@ h1.title {
 .logo {
     border-bottom: 2px solid #ff6709;
     border-top: 4px solid  #177FFF;
+  
 
 }
 h1 {
@@ -41,6 +43,9 @@ main {
     color:#195eb3;
     border:4px double #177fff;
     line-height:1.25;
+    max-width:1020px;
+    margin:0 auto;
+    
     
     
 }
@@ -50,6 +55,8 @@ header {
     background-color:#195eb3;
     border: 4px solid  #177FFF;
     text-align: center;
+    align-items:center;
+    justify-items:center;
 
 }
 
@@ -64,9 +71,11 @@ nav.topNav {
     font-size:1.25rem;
     padding:.5rem;
     letter-spacing:2px;    
-    margin:0;
+    margin:0 auto;
     color:#17ff82;
     background-color:#195eb3;
+    
+    
 }
 
 
@@ -74,45 +83,47 @@ nav.topNav ul{
     list-style-type: none;
     margin:0;
     text-align:left;
-    
-    
-    
+      
        
     
    }
-nav.topNav ul li {
+/*nav.topNav ul li {
     padding: .5rem 10%;
     border-bottom: 1px solid #177fff;
+   
     /*color:#17ff82;
     background-color:#195eb3;*/
    
-   
-}
+ /*  
+}*/
 nav.topNav ul li.active a{
     background:#17ff82;
     color: #195eb3;
 
 }
 nav.topNav ul li a {
-    padding: ;
+    padding: .5rem;
     display: block;
+    border-bottom: 1px solid #177fff;
        
     color:#17ff82;
     background-color:#195eb3;
     text-decoration: none;
+    
 
 }
 
 nav.topNav ul li a:hover {
     background:#17ff82;
     color: #195eb3;
+    
 
 }
 nav.topNav button {
     border: none;
     background-color:#195eb3;
     color:#17ff82;
-    margin:.25rem;
+    margin:.25rem 0;
     text-align: left;
     padding:0;
 }
@@ -135,6 +146,8 @@ footer {
     color:#17ff82;
     margin: auto;
     text-align:center;
+    max-width:1020px;
+    padding: .5rem;
 
 }
 footer a {
@@ -204,4 +217,7 @@ section.testimonials img {
 }
 section.testimonials p{
     margin-left:1rem;
+}
+section.testimonials {
+    font-size:1.5rem;
 }

@@ -3,6 +3,9 @@
         text-align:center;
 
     }
+    nav.topNav button {
+        text-align:center;
+    }
     button.call {
         position:absolute;
         padding: .5rem 2rem;

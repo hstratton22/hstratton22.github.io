@@ -15,16 +15,15 @@ header {
 nav.topNav ul {
     display: grid;
     grid-template-columns: 1px 1fr 1fr 1fr 1fr ;
-    align-content: space-between;
-    justify-content: space-around;
+    align-content: space-around;
+    justify-content: space-between;
+    
     
     
     
     
 }
-nav.topNav ul li {
-    display: block;
-}
+
 nav.topNav ul li{
     border: none;
     align-self: center;
