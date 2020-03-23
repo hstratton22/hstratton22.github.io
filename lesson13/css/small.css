@@ -42,6 +42,7 @@ main {
     border:4px double #177fff;
     line-height:1.25;
     
+    
 }
 header {
     display: flex;
@@ -62,6 +63,8 @@ nav.topNav {
     display: flex;
     flex-direction: column;
     font-weight: bold;
+    font-size:1.25rem;
+    padding:.5rem;
     letter-spacing:2px;    
     margin:0;
     color:#17ff82;
@@ -72,6 +75,8 @@ nav.topNav {
 nav.topNav ul{
     list-style-type: none;
     margin:0;
+    text-align:left;
+    
        
     
    }
@@ -122,6 +127,7 @@ footer {
 }
 footer a {
     color: #17ff82;
+    text-decoration:none;
    
 
 }
@@ -131,4 +137,57 @@ footer a:hover {
     font-weight: bold;
 
 }
-/*=============================*/
+/*===========plan button===========*/
+button.call {
+    padding: .5rem 6rem;
+    margin: .5rem auto;
+    color: #17ff82;
+    background-color:#195eb3;
+    border-radius: 20px;
+    border: 2px solid #ff6709;
+    font-size:2rem;
+    margin-bottom: 1rem;
+  
+   
+
+}
+button.call:hover {
+   border:4px solid  #177FFF;
+}
+button.call a{
+    color: #17ff82;
+    text-decoration:none;
+
+}
+/*=========hero================*/
+picture.heroimage img{
+    max-width:100%;
+    height: auto;
+    margin:0 auto;
+    box-shadow: 5px 5px 10px grey;
+   
+}
+/*=========weather==============*/
+section.weather {
+    border:4px solid #17ff82;
+    background-color:#19B360;
+    margin: auto;
+    margin-top: 1rem;
+    padding: .5rem;
+    
+
+}
+/*=========testimonials=============*/
+section.testimonials {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+section.testimonials img {
+    margin:.5rem auto;
+    box-shadow: 5px 5px 10px grey;
+    max-width:100%;
+
+}
+section.testimonials p{
+    margin-left:1rem;
+}

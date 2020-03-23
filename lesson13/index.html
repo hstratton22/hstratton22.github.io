@@ -32,18 +32,31 @@
         </header>
             <main>
                 <section class="hero">
-                <img src="images/" alt="heroimage">
-                <button class="call">Make A Plan</button>
+                    <picture class="heroimage">
+                        <source media="(max-width: 600px)" srcset="images/AnggaIndratama600.jpg">
+                            <source media="(max-width: 900px)" srcset="images/AnggaIndratama900.jpg">
+                                <img src="images/AnggaIndratama1020.jpg" alt="excited rafters">
+                            </picture>
+                
+                <button class="call"><a href="reservations.html">Make A Plan</a></button>
                 <section class="weather">
-                    <p>Currently: </p>
-                    <p>High/low:</p>
+                    <h4>Weather in Riggins</h4>
+                    <h4>Currently: <span id="current"></span></h4>
+                    <h4>High/low:<span id="high"></span>/<span id="low"></span></h4>
                 </section>
             </section>
             <section class="testimonials">
-                <img src="" alt="">
-                <p>Some text about the image</p>
-                <img src="" alt="">
-                <p>Some text about the image</p>
+                <img src= "images/RuneHaugseng640.jpg" alt="intense rapids">
+                <div class="text">
+                <h3>My sons learned hands-on survival skills and loved it. It was an excellent teaching opportunity. We have great memories.</h3>
+                <p>-Ernest, father of 3 boys</p>
+            </div>
+                <img src= "images/AnggaIndratama2640.jpg" alt="rafting family">
+                <div class="text">
+                <h3>Rafting with Salmon River Adventures was the best family reunion we have ever had!</h3>
+                <p>-Kyle, age 14</p>
+            </div>
+                
 
             </section>
             

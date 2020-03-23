@@ -1,3 +1,45 @@
 @media only screen and (min-width:650px) {
-   
+    nav.topNav ul {
+        text-align:center;
+
+    }
+    button.call {
+        position:absolute;
+        padding: .5rem 2rem;
+        font-size:2rem;
+
+    }
+    .heroimage {
+        position:relative;
+    }
+    button.call{
+        right:50px;
+        bottom: 20px;
+    }
+   .weather {
+       display: flex;
+       justify-content: space-evenly;
+       
+       padding:0;
+   }
+   .weather h4{
+       margin:0;
+       }
+}
+section.testimonials {
+    
+    grid-template-columns: 1fr 1fr 1fr;
+}
+section.testimonials img{
+    max-width: 90%;
+    grid-column: span 2;
+
+}
+section.testimonials div.text:nth-child(1) {
+    grid-column: 1;
+
+}
+section.testimonials h3 {
+    font-size: 2rem;
+    
 }
