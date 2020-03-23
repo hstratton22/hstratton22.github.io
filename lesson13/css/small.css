@@ -101,10 +101,15 @@ nav.topNav ul li.active a{
     color: #195eb3;
 
 }
+nav.topNav ul li {
+    display: block;
+    border-bottom: 1px solid #177fff;
+
+}
 nav.topNav ul li a {
     padding: .5rem;
     display: block;
-    border-bottom: 1px solid #177fff;
+    
        
     color:#17ff82;
     background-color:#195eb3;
