@@ -229,3 +229,12 @@ section.testimonials p{
 section.testimonials {
     font-size:1.5rem;
 }
+/*============guides===========*/
+.profiles img {
+    border-radius:50px;
+    border: 3px solid  #ff6709;
+    margin: 0 auto;
+}
+.profiles h2 {
+    text-align: center;
+}

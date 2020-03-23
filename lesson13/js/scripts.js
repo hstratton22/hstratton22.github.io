@@ -19,20 +19,30 @@ fetch(guidebios)
     for (let i=0; i <bios.length; i++) {
         let profile = document.createElement('section');
         let ind = document.createElement('div');
-        let h3 =document.createElement('h3');
-        let h4= document.createElement('h4');
+        let firstName =document.createElement('h3');
+        let lastName =document.createElement('h3');
+        let fullName=document.createElement('h2');
+        let certLevel= document.createElement('h4');
+        let email= document.createElement('h4');
+        let bio= document.createElement('h4');
         let image=document.createElement('img');
 
-        h3.textContent =bios[i].firstName;
-        h3.textContent=bios[i].lastName;
-        h4.textContent=bios[i].certLevel;
-        h4.textContent=bios[i].email;
-        h4.textContent=bios[i].bio;
+        firstName.textContent =bios[i].firstName;
+        lastName.textContent=bios[i].lastName;
+        fullName.textContent=bios[i].firstName +" " + bios[i].lastName;
+        certLevel.textContent=bios[i].certLevel;
+        email.textContent=bios[i].email;
+        bio.textContent=bios[i].bio;
         image.setAttribute('src', "images/" + bios[i].profile);
-        image.setAttribute('alt', bios[i].lastName + "photo");
+        image.setAttribute('alt', bios[i].lastName + " " + "photo");
 
-        h3.appendChild(ind);
-        h4.appendChild(ind);
+        profile.appendChild(image);
+       
+        ind.appendChild(fullName);
+        ind.appendChild(certLevel);
+        ind.appendChild(email);
+        ind.appendChild(bio);
+        profile.appendChild(ind);
         document.querySelector('div.profiles').appendChild(profile);
     }
 
