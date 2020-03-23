@@ -12,9 +12,35 @@
         
         </head>
         <body>
+            <header>
+                <div class="logo">
+                <img src= "images/logofinal1.png" alt="Salmon River Adventures logo">
+                
+            </div>
+            
+            <nav class="topNav">
+                <button onclick="menu()">&#9776;</button>
+                <ul id="topNav" class="hide">
+                    
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="guides.html">Guides</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                </ul>
+            </nav>
+        </header>
             <main> 
             <h3> Weather data from <a href="https://openweathermap.org/city/4092267"> openweathermap.org</a></h3>
             </main>
+            <footer>
+                <img src="images/logo100.png" width="20px">
+                &copy; <span id="currentDate"></span> | Heather Stratton |<a href="resources.html"> Resources</a>
+            </footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+    <script>WebFont.load({google: {families:['Covered By Your Grace', 'Oxygen']}});</script>
+            <script src="js/scripts.js"></script>
+
 
         </body>
         </html>
