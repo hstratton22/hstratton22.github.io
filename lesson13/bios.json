@@ -1,9 +1,46 @@
 {
-    "firstName": "A",
-    "lastName": "B",
-    "certLevel": "3 years",
-    "email": "A@email.com",
-    "bio": "Information about the guide",
-    "profile": "face.pjg"
+    "bios": [
+    {
+    "firstName": "Harlee",
+    "lastName": "Bradford",
+    "certLevel": "Full certification, 3 years experience as guide",
+    "email": "hbradford@sradventures.com",
+    "bio": "I have always loved the outdoors.  Running rivers has been my passion for the past decade.  I can't wait to share the sunrise on the river with my new best friend, you!",
+    "profile": "face1.jpg"
    
+}
+,
+{
+    
+    "firstName": "Gustav",
+    "lastName": "Jonas",
+    "certLevel": "Full certification, 7 years experience as guide",
+    "email": "gjonas@sradventrues.com",
+    "bio": "My first trip was as a teenager with a youth group. I have come back every summer since then because it's the best job in the world. Every trip is new and exciting. There's never a dull moment.  Safety is my highest priority.  Fun is guaranteed.",
+    "profile": "face2.jpg"
+
+}
+,
+
+{
+    
+    "firstName": "Jefferson",
+    "lastName": "Maxwell",
+    "certLevel": "Full certification, 13 years",
+    "email": "jmaxwell@sradventures.com",
+    "bio": "As an Eagle scout, I have been taught to appreciate nature. Whether rock climbing, backpacking, or running rivers, the beauty continues to impress. My specialty is large groups. I'll share some great stories, and I'll keep you safe.  Nature provides the rest.",
+    "profile": "face3.jpg"
+
+}
+,
+{
+    
+    "firstName": "Rich",
+    "lastName": "Ryder",
+    "certLevel": "Full certification, 6 years",
+    "email": "rryder@sradventures.com",
+    "bio": "Life is full of adventure.  This is the best way to find personal identity and learn cooperation. I will help each member of your party to be included. The group succeeds together.",
+    "profile": "face4.jpg"
+}
+]
 }
