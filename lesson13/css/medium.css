@@ -9,12 +9,15 @@
         font-size:2rem;
 
     }
-    .heroimage {
-        position:relative;
+    section.hero {
+        position: relative;
     }
+    /*picture.heroimage img {
+        position:relative;
+    }*/
     button.call{
         right:50px;
-        bottom: 20px;
+        bottom: 50px;
     }
    .weather {
        display: flex;
@@ -25,21 +28,42 @@
    .weather h4{
        margin:0;
        }
-}
+
 section.testimonials {
+    display: grid;
     
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    
 }
 section.testimonials img{
-    max-width: 90%;
+    max-width: 95%;
     grid-column: span 2;
 
+}
+div.test1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div.test2 {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div.test2 div.text {
+    grid-column:1;
+    grid-row:2;
+}
+div.test2 img{
+    grid-column:2/4;
 }
 /*section.testimonials div.text:nth-child(3) {
     grid-column: 1;
 
-}*/
+}
+section.testimonials img:nth-child(2) {
+    grid-column:2 span;
+}
 section.testimonials h3 {
     font-size: 2rem;
     
+}*/
 }

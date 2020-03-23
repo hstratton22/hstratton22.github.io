@@ -22,6 +22,9 @@ nav.topNav ul {
     
     
 }
+nav.topNav ul li {
+    display: block;
+}
 nav.topNav ul li{
     border: none;
     align-self: center;
@@ -37,8 +40,8 @@ nav.topNav button{
 }
     
 button.call {
-    right:75px;
-    bottom:100px;
+    right:55px;
+    bottom:80px;
 }
 
 
