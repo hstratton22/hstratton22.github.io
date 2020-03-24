@@ -325,3 +325,9 @@ form label.above select {
     border: 1px solid #195eb3;
     color: #195eb3;
 }
+/*===============*/
+.iframe {
+    border:4px solid #195eb3;
+    padding:1rem;
+}
+
