@@ -299,6 +299,7 @@ textarea {
     display:block;
     padding:.5rem;
     border-radius:50px;
+    border: 2px solid  #19B360;
 }
  input.submitBtn {
     margin-left: 2rem;
@@ -315,4 +316,12 @@ input.submitBtn:hover {
     border:4px solid  #177FFF;
 
 
+}
+form label.above input {
+    border: 1px solid #195eb3;
+    color: #195eb3;
+}
+form label.above select {
+    border: 1px solid #195eb3;
+    color: #195eb3;
 }
