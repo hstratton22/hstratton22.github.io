@@ -237,8 +237,9 @@ section.testimonials {
 .profiles img {
     border-radius:50px;
     border: 3px solid  #ff6709;
-    margin: 1rem auto;
+    margin: 2rem auto 0 auto;
     display:block;
+    padding:.75rem;
 }
 .profiles h2 {
     text-align: center;
@@ -247,7 +248,16 @@ section.testimonials {
     width:300px;
     border:2px solid #19B360;
     border-radius:50px;
-    margin:1rem auto;
+    margin:.25rem auto 0 auto;
     padding:.75rem;
     line-height:1.5;
 }
+h2.headline {
+    text-align:center;
+}
+.profiles h4 {
+    border-radius: 15px;
+    padding:3px;
+}
+/*=========\contactForm===*/
+.contactForm

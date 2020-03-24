@@ -22,18 +22,54 @@
                 <button onclick="menu()">&#9776;</button>
                 <ul id="topNav" class="hide">
                     
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li ><a href="index.html">Home</a></li>
                     <li><a href="trips.html">Trips</a></li>
                     <li><a href="guides.html">Guides</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
                     <li><a href="reservations.html">Reservations</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <form></form>
-            <p>1000 S Main St., Riggins, ID</p>
+            <h2> Contact Us</h2>
+            <section class="map">
+            <div class="address">
+            
+            <h3>Visit us at:</h3>
+            <p>1000 S Main St.<Br>Riggins, ID 83549</p>
+                <p><a href="">info@sradventures.com</a></p>
+            </div>
+                <div class="iframe">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.5750810825393!2d-116.31988964848989!3d45.41790754444903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c5695ed5fae5%3A0x837cd0558ffd520c!2s1000%20S%20Main%20St%2C%20Riggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1584800061909!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+</section>
+<section class="contactForm">
+<form method="get" action="thanks.html">
+    <fieldset>
+        <legend>
+            Personal Information
+        </legend>
+        <label class="above">First name* <input type="text" name="firstName" pattern="[A-Za-z-'\s]" title="Letters only" required></label>
+        <label class="above">Last name* <input type="text" name="lastName" pattern="[A-Za-z-'\s]" title="Letters only" required></label>
+        <label class="above">Email* <input type="email" name="email" placeholder="x@email.com" required></label>
+        <label class="above">Phone* <input type="tel" name="tel" placeholder="##########" pattern="[0-9]{10}" title="Numbers only, no =" required></inpute></label>
+
+    </fieldset>
+    <fieldset>
+        <legend>Preferred response method</legend>
+        <label class="sbs">Email<input type="radio" name="responseType" value="Email"></label>
+        <label class="sbs">Phone<Input type="radio" name="responseType" value="tel"></label>
+                            
+    </fieldset>
+    <fieldset>
+    <label for="comments" class="comments">Comments </label>
+    <textarea name="comments" id="comments">Comments and Questions</textarea>
+    
+</fieldset>
+<input type="submit" name="submit" value="Send" class="submitBtn" >
+
+</form>
+</section>
         </main>
         <footer>
             <img src="images/logo100.png" width="20px">
