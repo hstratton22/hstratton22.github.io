@@ -209,9 +209,12 @@ section.weather {
     margin: auto;
     margin-top: 1rem;
     padding: .5rem;
+    text-align: center;
+    line-height: .75;
     
 
 }
+
 /*=========testimonials=============*/
 /*section.testimonials {
     display: grid;

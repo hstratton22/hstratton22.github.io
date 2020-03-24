@@ -19,32 +19,50 @@
     nav.topNav button {
         text-align:center;
     }
-    button.call {
-        position:absolute;
-        padding: .5rem 2rem;
-        font-size:2rem;
-
-    }
+    /*=======================*/
     section.hero {
         position: relative;
     }
     /*picture.heroimage img {
         position:relative;
     }*/
+    /*===============*/
+        
+    button.call {
+        position:absolute;
+        padding: .5rem 2rem;
+        font-size:2rem;
+
+    }
+    
     button.call{
         right:50px;
         bottom: 50px;
     }
-   .weather {
+    /*================*/
+   section.weather {
        display: flex;
        justify-content: space-evenly;
+       
+       text-align:left;
+       line-height:1.25;
        
        padding:0;
    }
    .weather h4{
        margin:0;
+       align-self:center;
        }
-
+    section.weather img#icon {
+        width:30px;
+        height:auto;
+    
+    }
+    /*
+    section.weather h4 {
+    display: inline-block;
+}*/
+/*====================*/
 section.testimonials {
     display: grid;
     grid-template-columns: 1fr;
