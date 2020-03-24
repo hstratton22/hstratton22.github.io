@@ -21,10 +21,6 @@ nav.topNav ul {
     align-content: space-between;
     justify-content: space-between;
     
-    
-    
-    
-    
 }
 
 nav.topNav ul li{
@@ -50,6 +46,9 @@ button.call {
 
 .contactForm {
     font-size:1rem;
+}
+section.testimonials {
+    font-size: 1.75rem;
 }
 
 }

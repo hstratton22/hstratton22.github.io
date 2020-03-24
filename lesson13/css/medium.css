@@ -47,8 +47,8 @@
 
 section.testimonials {
     display: grid;
-    
     grid-template-columns: 1fr;
+    font-size:1.25rem;
     
 }
 section.testimonials img{
