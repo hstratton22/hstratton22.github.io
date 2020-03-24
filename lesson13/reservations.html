@@ -31,6 +31,58 @@
             </nav>
         </header>
             <main>
+                <section class="table">
+                <table>
+                    <thead>
+                        <tr></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+
+                </table>
+            </section>
+            <section class="resForm">
+                <form method="get" action="thanks.html">
+                    <fieldset>
+                        <legend>
+                            Personal Information
+                        </legend>
+                        <label class="above">First name* <input type="text" name="firstName" pattern="[A-Za-z-'\s]" title="Letters only" required></label>
+                        <label class="above">Last name* <input type="text" name="lastName" pattern="[A-Za-z-'\s]" title="Letters only" required></label>
+                        <label class="above">Email* <input type="email" name="email" placeholder="x@email.com" required></label>
+                        <label class="above">Phone* <input type="tel" name="tel" placeholder="##########" pattern="[0-9]{10}" title="Numbers only, no =" required></inpute></label>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Choose Your Own Adventure</legend>
+                        <label class="sbs">Trip1 <input type="radio" name="trip" value="trip1"></label>
+                        <label class="sbs">Trip2 <input type="radio" name="trip" value="trip2"></label>
+                        <label class="sbs">Trip3 <input type="radio" name="trip" value="trip3"></label>
+                        <label class="above">Start Date
+                            <select name="startDate">
+                                <option value="" disabled selected>2020</option>
+                                <option value="June 24-27">June 24-27</option>
+                                <option value="July 1-4">July 1-4</option>
+                                <option value="July 8-11"> July 8-11</option>
+                                <option value="July 15-18">July 15-18</option>
+                                <option value="July 22-25">July 22-25</option>
+                                <option value="Aug 5-18">Aug 5-8</option>
+                                <option value="Aug 12-15">Aug 12-15</option>
+                            </select>
+                        
+
+                        </label>
+                        <label for="comments" class="comments">Comments </label>
+                        <textarea name="comments" id="comments" rows="5" cols="30"></textarea>
+                    </fieldset>
+                    <input type="submit" value="Request Reservation" class="submitBtn" name="submit">
+
+                </form>
+            </section>
 
             </main>
             <footer>
