@@ -5,7 +5,7 @@ const apiURL="https://api.openweathermap.org/data/2.5/forecast?lat=45.4200821&lo
 fetch(apiURL)
 .then((response) => response.json())
 .then((jsObject)=>{
-    console.log(jsObject);
+    //console.log(jsObject);
     const imgsource = 'https://openweathermap.org/img/w/' + jsObject.list[0].weather[0].icon + '.png';
     const descrip = jsObject.list[0].weather[0].description;
     document.getElementById('current').textContent=jsObject.list[0].weather[0].main;
