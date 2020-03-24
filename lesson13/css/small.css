@@ -230,11 +230,24 @@ section.testimonials {
     font-size:1.5rem;
 }
 /*============guides===========*/
+.profiles {
+    display: flex;
+    flex-direction: column;
+}
 .profiles img {
     border-radius:50px;
     border: 3px solid  #ff6709;
-    margin: 0 auto;
+    margin: 1rem auto;
+    display:block;
 }
 .profiles h2 {
     text-align: center;
+}
+.profiles div {
+    width:300px;
+    border:2px solid #19B360;
+    border-radius:50px;
+    margin:1rem auto;
+    padding:.75rem;
+    line-height:1.5;
 }
