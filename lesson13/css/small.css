@@ -291,6 +291,9 @@ label.above {
     padding:.5rem 0;
     
 }
+label.above input, label.sbs input {
+    padding: .5rem;
+}
 label.sbs {
     display:block;
     padding:.5rem;
@@ -326,8 +329,22 @@ form label.above select {
     color: #195eb3;
 }
 /*===============*/
-.iframe {
+.iframe iframe{
     border:4px solid #195eb3;
     padding:1rem;
+    max-width:280px;
+    box-shadow: 0 0 10px  #195eb3;
+    
+}
+.address {
+    margin: 1rem;
+}
+.address a {
+    color:#195eb3;
+    text-decoration:none;
+}
+.address a:hover {
+    background-color: #17ff82;
+    font-weight:bold;
 }
 

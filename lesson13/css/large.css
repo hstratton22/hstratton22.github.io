@@ -50,5 +50,8 @@ button.call {
 section.testimonials {
     font-size: 1.75rem;
 }
+form {
+    font-size:1rem;
+}
 
 }
