@@ -232,6 +232,10 @@ section.testimonials p{
 section.testimonials {
     font-size:1.5rem;
 }
+div.test2 {
+    display: flex;
+    flex-direction: column-reverse;
+}
 /*============guides===========*/
 .profiles {
     display: flex;

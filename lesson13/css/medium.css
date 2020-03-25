@@ -81,27 +81,20 @@ div.test1 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 div.test2 {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display:flex;
+    flex-direction: row;
 }
 div.test2 div.text {
-    grid-column:1;
-    grid-row:2;
-}
-div.test2 img{
-    grid-column:2/4;
-}
-/*section.testimonials div.text:nth-child(3) {
-    grid-column: 1;
+    text-align: right;
 
 }
-section.testimonials img:nth-child(2) {
-    grid-column:2 span;
+div.test2 div.text p {
+    margin-right: .5rem;
 }
-section.testimonials h3 {
-    font-size: 2rem;
-    
-}*/
+div.test2 img {
+    margin-left:1rem;
+}
+
 /*==========contactForm====*/
 label.above input, label.sbs input {
     padding: .25rem;
