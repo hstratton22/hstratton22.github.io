@@ -8,6 +8,7 @@ body {
 }
 h1, h2, h3 {
     font-family: 'Covered By Your Grace', cursive;
+    letter-spacing:1px 
 }
 h1.title {
     background-color:#195eb3;
@@ -28,6 +29,7 @@ h1 {
     background-color:#195eb3;
     color:#17ff82;
     text-shadow: 2px 2px black;
+    text-align:center;
 
 }
 h4 {
@@ -215,11 +217,9 @@ section.weather {
 
 }
 
+
 /*=========testimonials=============*/
-/*section.testimonials {
-    display: grid;
-    grid-template-columns: 1fr;
-}*/
+
 section.testimonials img {
     margin:.5rem auto;
     box-shadow: 5px 5px 10px grey;

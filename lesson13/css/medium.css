@@ -58,6 +58,7 @@
         height:auto;
     
     }
+    
     /*
     section.weather h4 {
     display: inline-block;
@@ -69,6 +70,7 @@ section.testimonials {
     font-size:1.25rem;
     
 }
+
 section.testimonials img{
     max-width: 95%;
     grid-column: span 2;
