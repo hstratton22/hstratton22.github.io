@@ -1,21 +1,11 @@
 @media only screen and (min-width:650px) {
-    nav.topNav {
-        border-top: 2px solid #ff6709;
-    }
-    /*header {
-        border-top:4px solid  #177FFF;
-  
-    }*/
-    .logo {
-        border:none;
-    }
+    
+    
     nav.topNav ul {
         text-align:center;
 
     }
-    nav.topNav ul li {
-        max-width:950px;
-    }
+    
     nav.topNav button {
         text-align:center;
     }

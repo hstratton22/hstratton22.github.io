@@ -51,8 +51,8 @@
         <legend>
             Personal Information
         </legend>
-        <label class="above">First name* <input type="text" name="firstName" pattern="[A-Za-z-'\s]" title="Letters only" required></label>
-        <label class="above">Last name* <input type="text" name="lastName" pattern="[A-Za-z-'\s]" title="Letters only" required></label>
+        <label class="above">First name* <input type="text" name="firstName" pattern="[A-Za-z-'\s]{3,}" title="Min. 3 letters. No numbers." required></label>
+        <label class="above">Last name* <input type="text" name="lastName" pattern="[A-Za-z-'\s]{1,}" title="Letters only. No numbers." required></label>
         <label class="above">Email* <input type="email" name="email" placeholder="x@email.com" required></label>
         <label class="above">Phone* <input type="tel" name="tel" placeholder="##########" pattern="[0-9]{10}" title="Numbers only, no =" required></inpute></label>
 

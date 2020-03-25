@@ -12,12 +12,22 @@ header {
     border-bottom: none;
     border-top: none;
 }
+
+
+nav.topNav ul.hide {
+    display: grid;
+}
+nav.topNav button{
+    display: none;
+
+}
 nav.topNav {
     border-top:none;
+    
 }
 nav.topNav ul {
     display: grid;
-    grid-template-columns: 1px 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     align-content: space-between;
     justify-content: space-between;
     
@@ -27,17 +37,14 @@ nav.topNav ul li{
     border: none;
     align-self: center;
     justify-self: center;
-    font-size: 1.5rem;
-    max-width:200px;
+    font-size: 1rem;
+    /*max-width:200px;*/
     text-align:left;
     
     
 
 }
-nav.topNav button{
-    display: none;
 
-}
     
 button.call {
     right:55px;
