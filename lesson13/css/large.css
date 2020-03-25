@@ -6,6 +6,7 @@ header {
     border-bottom: 2px solid #ff6709;
     border-top: 4px solid  #177FFF;
     
+    
 
 }
 .logo {
@@ -14,34 +15,51 @@ header {
 }
 
 
-nav.topNav ul.hide {
-    display: grid;
-}
+
 nav.topNav button{
     display: none;
 
 }
 nav.topNav {
     border-top:none;
+    max-width:1020px;
+    
     
 }
-nav.topNav ul {
+#topNav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-    align-content: space-between;
+    border:none;
+    align-items:center;
+    align-content:space-between;
+    justify-items:space-between;
+    justify-content:space-between;
+}
+/*
+}
+nav.topNav ul, nav.topNav ul.hide {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    /*align-content: center;
     justify-content: space-between;
     
-}
+}*/
+/*ul#topNav.hide {
+    align-self:auto;
+}*/
 
 nav.topNav ul li{
     border: none;
-    align-self: center;
+    /*align-self: center;*/
     justify-self: center;
     font-size: 1rem;
     /*max-width:200px;*/
-    text-align:left;
+    text-align:center;
     
     
+}
+nav.topNav ul li a {
+   padding: .5rem 1.5rem;
 
 }
 
