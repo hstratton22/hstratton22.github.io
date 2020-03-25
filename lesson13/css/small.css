@@ -347,4 +347,22 @@ form label.above select {
     background-color: #17ff82;
     font-weight:bold;
 }
+/*=========resources=====*/
+.credits {
+    border:1px solid #195eb3;
+    padding: 2rem;
+    border-radius: 50px;
+    margin:1rem 2rem;
+    text-align:center;
+}
+.credits a {
+    
+    color:#195eb3;
+    text-decoration:none;
+}
+.credits a:hover {
+    background-color: #17ff82;
+    font-weight:bold;
+
+}
 
