@@ -270,10 +270,12 @@ div.test2 {
 }
 .profiles img {
     border-radius:50px;
+    
     border: 3px solid  #ff6709;
     margin: 2rem auto 0 auto;
     display:block;
     padding:.75rem;
+    
 }
 .profiles h2 {
     text-align: center;
@@ -397,5 +399,24 @@ form label.above select {
     background-color: #17ff82;
     font-weight:bold;
 
+}
+/*========trips=============*/
+.trips  {
+    display: flex;
+    flex-direction:column;
+}
+.trips section {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border-radius:50px;
+    border: 2px solid  #ff6709;
+    padding: .5rem;
+
+}
+.trips section img {
+    border-radius:50px;
+    box-shadow: 0 0 10px  #195eb3;
+    
 }
 
