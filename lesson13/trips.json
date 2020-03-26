@@ -1,6 +1,11 @@
 {
     "trips": [
         {"location": "Grand Canyon",
-        ""}
+        "length": "4 days",
+    "skill": "intermediate",
+"cost": "$800/person",
+"services": "Breakfast, lunch, and dinner provided.  Tents for sleeping but bring your own sleeping bag.",
+"photo": "canyon.jpg"}
+
     ]
 }
