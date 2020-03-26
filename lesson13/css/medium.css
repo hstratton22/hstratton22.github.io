@@ -93,6 +93,11 @@ label.above input, label.sbs input {
 .iframe iframe {
     max-width:100%;
 }
+section.map {
+    display: flex;
+    flex-direction: row;
+    margin:1rem;
+}
 /*========trips===========*/
 .trips section {
     display: flex;
@@ -100,5 +105,6 @@ label.above input, label.sbs input {
 }.trips section img {
     margin-left: .5rem;
 }
+
 
 }

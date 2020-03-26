@@ -33,17 +33,44 @@
             </nav>
         </header>
             <main>
+                <h1 class="headline">Choose Your Own Adventure</h1>
                 <section class="table">
                 <table>
                     <thead>
-                        <tr></tr>
+                        <tr>
+                            <td>Length</td>
+                            <td>Skill Level</td>
+                            <td>Cost</td>
+                            <td>Location</td>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td></td>
+                            <td>1 day</td>
+                            <td>Beginner</td>
+                            <td>$90</td>
+                            <td>North Fork</td>
+                        </tr>
+                        <tr>
+                            <td>1 day</td>
+                            <td>Beginner</td>
+                            <td>$100</td>
+                            <td>Riggins Hot Springs</td>
+                        </tr>
+                        <tr>
+                            <td>1 day</td>
+                            <td>Beginner</td>
+                            <td>$120</td>
+                            <td>Goldbug Hot Springs</td>
+                        </tr>
+                        <tr>
+                            <td>5 day</td>
+                            <td>Intermediate</td>
+                            <td>$1800</td>
+                            <td>River of No Return</td>
                         </tr>
                     </tbody>
-                    <tfoot></tfoot>
+                    
 
                 </table>
             </section>
@@ -60,11 +87,43 @@
 
                     </fieldset>
                     <fieldset>
-                        <legend>Choose Your Own Adventure</legend>
-                        <label class="sbs">Trip1 <input type="radio" name="trip" value="trip1"></label>
-                        <label class="sbs">Trip2 <input type="radio" name="trip" value="trip2"></label>
-                        <label class="sbs">Trip3 <input type="radio" name="trip" value="trip3"></label>
-                        <label class="above">Start Date
+                        <legend>Trip</legend>
+                        <label class="sbs">North Fork <input type="radio" name="trip" value="trip1"></label>
+                        
+                            
+                        <label class="sbs">Riggins Hot Springs <input type="radio" name="trip" value="trip2"></label>
+                        
+                            
+
+                        <label class="sbs">Goldbug Hot Springs <input type="radio" name="trip" value="trip3"></label>
+                        <label class="above">Date for 1 day
+                            <select name="startDate">
+                                <option value="" disabled selected>2020</option>
+                                <option value="June 25">June 25</option>
+                                <option value="June 26">June 26</option>
+                                <option value="June 27">June 27</option>
+                                <option value="July 2">July 2</option>
+                                <option value="July 9">July 91</option>
+                                <option value="July 10">July 10</option>
+                                <option value="July 11">July 11</option>
+                                <option value="July 16">July 16</option>
+                                <option value="July 17">July 17</option>
+                                <option value="July 18">July 18</option>
+                                <option value="July 23">July 23</option>
+                                <option value="July 24">July 24</option>
+                                <option value="July 25">July 25</option>
+                                <option value="July 30">July 30</option>
+                                <option value="July 31">July 31</option>
+                                <option value="Aug 7">Aug 7</option>
+                                <option value="Aug 8">Aug 8</option>
+                                <option value="Aug 14">Aug 14</option>
+                                <option value="Aug 15">Aug 15</option>
+                                <option value="Aug 20">Aug 20</option>
+                                <option value="Aug 21">Aug 21</option>
+                            </select>
+                           
+                        <label class="sbs">River of No Return <input type="radio" name="trip" value="trip3"></label>
+                        <label class="above">Start Date for 5 day
                             <select name="startDate">
                                 <option value="" disabled selected>2020</option>
                                 <option value="June 24-27">June 24-27</option>
