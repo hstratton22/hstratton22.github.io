@@ -83,19 +83,19 @@
                         <label class="above">First name* <input type="text" name="firstName" pattern="[A-Za-z-'\s]{3,}" title="Min. 3 letters. No numbers." required></label>
                         <label class="above">Last name* <input type="text" name="lastName" pattern="[A-Za-z-'\s]{1,}" title="Letters only. No numbers." required></label>
                         <label class="above">Email* <input type="email" name="email" placeholder="x@email.com" required></label>
-                        <label class="above">Phone* <input type="tel" name="tel" placeholder="##########" pattern="[0-9]{10}" title="Numbers only, no =" required></inpute></label>
+                        <label class="above">Phone* <input type="tel" name="tel" placeholder="##########" pattern="[0-9]{10}" title="Numbers only, no =" required></label>
 
                     </fieldset>
                     <fieldset>
                         <legend>Trip</legend>
-                        <label class="sbs">North Fork <input type="radio" name="trip" value="trip1"></label>
+                        <label class="sbs">North Fork <input type="radio" name="trip" value="northfork"></label>
                         
                             
-                        <label class="sbs">Riggins Hot Springs <input type="radio" name="trip" value="trip2"></label>
+                        <label class="sbs">Riggins Hot Springs <input type="radio" name="trip" value="riggins"></label>
                         
                             
 
-                        <label class="sbs">Goldbug Hot Springs <input type="radio" name="trip" value="trip3"></label>
+                        <label class="sbs">Goldbug Hot Springs <input type="radio" name="trip" value="goldbug"></label>
                         <label class="above">Date for 1 day
                             <select name="startDate">
                                 <option value="" disabled selected>2020</option>
@@ -121,8 +121,9 @@
                                 <option value="Aug 20">Aug 20</option>
                                 <option value="Aug 21">Aug 21</option>
                             </select>
+                        </label>
                            
-                        <label class="sbs">River of No Return <input type="radio" name="trip" value="trip3"></label>
+                        <label class="sbs">River of No Return <input type="radio" name="trip" value="noreturn"></label>
                         <label class="above">Start Date for 5 day
                             <select name="startDate">
                                 <option value="" disabled selected>2020</option>
