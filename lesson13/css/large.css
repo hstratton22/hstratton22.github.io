@@ -23,6 +23,7 @@ nav.topNav button{
 nav.topNav {
     border-top:none;
     max-width:1020px;
+    margin:auto;
     
     
 }
