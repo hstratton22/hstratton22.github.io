@@ -12,6 +12,9 @@ header {
 .logo {
     border-bottom: none;
     border-top: none;
+    margin-left:.25rem;
+    margin-top:.25rem;
+    margin-bottom:.25rem;
 }
 
 

@@ -418,7 +418,8 @@ form label.above select {
 }
 .trips section img {
     border-radius:50px;
-    box-shadow: 0 0 10px  #195eb3;
+    /*box-shadow: 0 0 10px  #195eb3;*/
+    box-shadow: 5px 5px 10px grey;
 
 }
 .trips h3 {
