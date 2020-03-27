@@ -36,28 +36,12 @@ nav.topNav {
     justify-items:center;
     justify-content:space-between;
 }
-/*
-}
-nav.topNav ul, nav.topNav ul.hide {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-    /*align-content: center;
-    justify-content: space-between;
-    
-}*/
-/*ul#topNav.hide {
-    align-self:auto;
-}*/
 
 nav.topNav ul li{
     border: none;
-    /*align-self: center;*/
     justify-self: center;
     font-size: 1rem;
-    /*max-width:200px;*/
-    text-align:center;
-    
-    
+        
 }
 nav.topNav ul li a {
    padding: .5rem 1.5rem;
