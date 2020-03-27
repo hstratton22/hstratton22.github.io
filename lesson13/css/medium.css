@@ -18,14 +18,14 @@
     }*/
     /*===============*/
         
-    button.call {
+    div.call {
         position:absolute;
         padding: .5rem 2rem;
         font-size:2rem;
 
     }
     
-    button.call{
+    div.call{
         right:50px;
         bottom: 55px;
     }

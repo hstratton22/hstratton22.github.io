@@ -200,7 +200,7 @@ footer ul a:hover{
 
 }
 /*===========plan button===========*/
-button.call {
+div.call {
     padding: .5rem 6rem;
     margin: .5rem auto;
     color: #17ff82;
@@ -209,15 +209,16 @@ button.call {
     border: 2px solid #ff6709;
     font-size:2rem;
     margin-bottom: 1rem;
+    text-align:center;
     
   
    
 
 }
-button.call:hover {
+div.call:hover {
    border:4px solid  #177FFF;
 }
-button.call a{
+div.call a{
     color: #17ff82;
     text-decoration:none;
 
