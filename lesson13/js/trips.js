@@ -6,7 +6,7 @@ fetch(trips)
 
 })
 .then(function(jsonObject) {
-    console.table(jsonObject);
+    //console.table(jsonObject);
     const desc =jsonObject['trips'];
     for (let i=0; i < desc.length; i++) {
         let location =document.createElement('h3');
