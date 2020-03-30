@@ -288,6 +288,11 @@ h2.headline {
     padding:3px;
 }
 /*=========contactForm===*/
+
+.resForm h2{
+    text-align:center;
+
+}
 form {
     
     text-align: left;
