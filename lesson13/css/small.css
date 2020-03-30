@@ -269,7 +269,7 @@ div.test2 {
     padding:.75rem;
     
 }
-.profiles h2 {
+.profiles h2, h3 {
     text-align: center;
 }
 .profiles div {
