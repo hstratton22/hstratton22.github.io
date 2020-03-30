@@ -19,6 +19,9 @@ h1.title {
     
     
 }
+h1, h2 {
+    text-align:center;
+}
 
 h1 {
     background-color:#195eb3;
@@ -269,7 +272,7 @@ div.test2 {
     padding:.75rem;
     
 }
-.profiles h2, h3 {
+.profiles h3 {
     text-align: center;
 }
 .profiles div {
@@ -428,9 +431,7 @@ table {
     
 
 }
-.table h2{
-    text-align:center;
-}
+
 thead {
     background-color: #ff6709;
     color: black;
