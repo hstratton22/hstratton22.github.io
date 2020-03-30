@@ -13,7 +13,7 @@ fetch(guidebios)
         let ind = document.createElement('div');
         let firstName =document.createElement('h3');
         let lastName =document.createElement('h3');
-        let fullName=document.createElement('h2');
+        let fullName=document.createElement('h3');
         let certLevel= document.createElement('h4');
         let email= document.createElement('h4');
         let bio= document.createElement('h4');
