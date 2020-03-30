@@ -4,18 +4,18 @@ body {
     background-color:black;
     
     margin:0 auto;
-    font-family: 'Oxygen', sans-serif;
+    font-family: $bodyFont;
 }
 h1, h2, h3 {
     font-family: 'Covered By Your Grace', cursive;
     letter-spacing:1px 
 }
 h1.title {
-    background-color:#195eb3;
-    color:#17ff82;
+    background-color: $dkBlue;
+    color: $ltGreen;
     text-shadow: 2px 2px black;
-    border-bottom: 2px solid #ff6709;
-    border-top: 4px solid  #177FFF;
+    border-bottom: 2px solid $orange;
+    border-top: 4px solid $ltBlue;
     
     
 }
@@ -24,13 +24,13 @@ h1, h2 {
 }
 
 h1 {
-    background-color:#195eb3;
-    color:#17ff82;
+    background-color: $dkBlue;
+    color:$ltGreen;
     text-shadow: 2px 2px black;
     
 }
 h4 {
-    background-color:#19B360;
+    background-color: $dkGreen;
     color:black;
 }
 h3 {
@@ -42,20 +42,20 @@ h3 {
 
 }
 h2 a {
-    color:#195eb3;
+    color: $dkBlue;
     text-decoration:none;
 
 }
 h2 a:hover {
-    background:#17ff82;
-    color: #195eb3;
+    background: $ltGreen;
+    color: $dkBlue;
 
 }
 main {
     background-color:white;
     padding: .5rem;
-    color:#195eb3;
-    border:4px double #177fff;
+    color: $dkBlue;
+    border:4px double $ltBlue;
     line-height:1.25;
     max-width:1020px;
     margin:0 auto;
@@ -66,8 +66,8 @@ main {
 header {
     display: flex;
     flex-direction: column;
-    background-color:#195eb3;
-    border: 4px solid  #177FFF;
+    background-color: $dkBlue;
+    border: 4px solid  $ltBlue;
     text-align: center;
     align-items:center;
       
@@ -85,13 +85,13 @@ nav.topNav {
     font-size:1.25rem;
     letter-spacing:2px;    
     margin:0 ;
-    color:#17ff82;
-    background-color:#195eb3;
+    color: $ltGreen;
+    background-color: $dkBlue;
     align-self:flex-start;
     justify-self: flex-start;
     
     width:100%;
-    border-top: 2px solid #ff6709;
+    border-top: 2px solid $orange;
     
     
     
@@ -111,36 +111,36 @@ nav.topNav ul{
    }
 
 nav.topNav ul li.active a{
-    background:#17ff82;
-    color: #195eb3;
+    background: $ltGreen;
+    color: $dkBlue;
 
 }
 nav.topNav ul li {
     display: block;
-    border-bottom: 1px solid #177fff;
+    border-bottom: 1px solid $ltBlue;
     
 
 }
 nav.topNav ul li a {
     padding: .5rem;
     display: block;
-    color:#17ff82;
-    background-color:#195eb3;
+    color: $ltGreen;
+    background-color: $dkBlue;
     text-decoration: none;
     
 
 }
 
 nav.topNav ul li a:hover {
-    background:#17ff82;
-    color: #195eb3;
+    background: $ltGreen;
+    color: $dkBlue;
     
 
 }
 nav.topNav button {
     border: none;
-    background-color:#195eb3;
-    color:#17ff82;
+    background-color: $dkBlue;
+    color: $ltGreen;
     margin:.25rem .25rem;
     text-align: left;
     padding:0;
@@ -161,9 +161,9 @@ nav.topNav ul.hide {
 
 /*=============footer=================*/
 footer {
-    background-color:#195eb3;
-    border: 4px solid  #177FFF;
-    color:#17ff82;
+    background-color: $dkBlue;
+    border: 4px solid  $ltBlue;
+    color: $ltGreen;
     margin: auto;
     text-align:center;
     max-width:1020px;
@@ -171,14 +171,14 @@ footer {
 
 }
 footer a {
-    color: #17ff82;
+    color:  $ltGreen;
     text-decoration:none;
    
 
 }
 footer a:hover {
-    background-color:#17ff82;
-    color: #195eb3;
+    background-color: $ltGreen;
+    color: $dkBlue;
     font-weight: bold;
 
 }
@@ -197,10 +197,10 @@ footer ul a:hover{
 div.call {
     padding: .5rem 6rem;
     margin: .5rem auto;
-    color: #17ff82;
-    background-color:#195eb3;
+    color:  $ltGreen;
+    background-color: $dkBlue;
     border-radius: 20px;
-    border: 2px solid #ff6709;
+    border: 2px solid $orange;
     font-size:2rem;
     margin-bottom: 1rem;
     text-align:center;
@@ -210,10 +210,10 @@ div.call {
 
 }
 div.call:hover {
-   border:4px solid  #177FFF;
+   border:4px solid $ltBlue;
 }
 div.call a{
-    color: #17ff82;
+    color:  $ltGreen;
     text-decoration:none;
 
 }
@@ -228,8 +228,8 @@ picture.heroimage img{
 }
 /*=========weather==============*/
 section.weather {
-    border:4px solid #17ff82;
-    background-color:#19B360;
+    border:4px solid  $ltGreen;
+    background-color:$dkGreen;
     margin: auto;
     margin-top: 1rem;
     padding: .5rem;
@@ -266,7 +266,7 @@ div.test2 {
 .profiles img {
     border-radius:50px;
     
-    border: 3px solid  #ff6709;
+    border: 3px solid  $orange;
     margin: 2rem auto 0 auto;
     display:block;
     padding:.75rem;
@@ -277,7 +277,7 @@ div.test2 {
 }
 .profiles div {
     width:300px;
-    border:2px solid #19B360;
+    border:2px solid $dkGreen;
     border-radius:50px;
     margin:.25rem auto 0 auto;
     padding:.75rem;
@@ -305,7 +305,7 @@ form {
 
 }
 form legend {
-    color:#195eb3;
+    color: $dkBlue;
     font-weight:bold;
     padding:.5rem;
     
@@ -313,7 +313,7 @@ form legend {
 
 }
  fieldset {
-    border: 2px solid #19B360;
+    border: 2px solid $dkGreen;
     border-radius:50px;
     padding:1rem;
     background-color:white;
@@ -334,38 +334,38 @@ textarea {
     display:block;
     padding:.5rem;
     border-radius:50px;
-    border: 2px solid  #19B360;
+    border: 2px solid  $dkGreen;
 }
  input.submitBtn {
     margin-left: 2rem;
     margin-top: 1rem;
     border-radius:50px;
     padding: .5rem 6rem; 
-    color: #17ff82;
-    background-color:#195eb3;
-    border: 2px solid #ff6709;
+    color:  $ltGreen;
+    background-color: $dkBlue;
+    border: 2px solid $orange;
     font-size:2rem;
 
 }
 input.submitBtn:hover {
-    border:4px solid  #177FFF;
+    border:4px solid $ltBlue;
 
 
 }
 form label.above input {
-    border: 1px solid #195eb3;
-    color: #195eb3;
+    border: 1px solid $dkBlue;
+    color: $dkBlue;
 }
 form label.above select {
-    border: 1px solid #195eb3;
-    color: #195eb3;
+    border: 1px solid $dkBlue;
+    color: $dkBlue;
 }
 /*===============*/
 .iframe iframe{
-    border:4px solid #195eb3;
+    border:4px solid $dkBlue;
     padding:1rem;
     max-width:280px;
-    box-shadow: 0 0 10px  #195eb3;
+    box-shadow: 0 0 10px  $dkBlue;
     margin-left:1rem;
     
 }
@@ -373,17 +373,17 @@ form label.above select {
     margin: 1rem;
 }
 .address a {
-    color:#195eb3;
+    color: $dkBlue;
     text-decoration:none;
 }
 .address a:hover {
-    background-color: #17ff82;
+    background-color: $ltGreen;
     font-weight:bold;
 }
 
 /*=========resources=====*/
 .credits {
-    border:1px solid #195eb3;
+    border:1px solid $dkBlue;
     padding: 2rem;
     border-radius: 50px;
     margin:1rem 2rem;
@@ -391,11 +391,11 @@ form label.above select {
 }
 .credits a {
     
-    color:#195eb3;
+    color: $dkBlue;
     text-decoration:none;
 }
 .credits a:hover {
-    background-color: #17ff82;
+    background-color: $ltGreen;
     font-weight:bold;
 
 }
@@ -410,7 +410,7 @@ form label.above select {
     flex-direction: column;
     margin: 1rem;
     border-radius:50px;
-    border: 2px solid  #ff6709;
+    border: 2px solid  $orange;
     padding: .5rem;
 
 }
@@ -424,7 +424,7 @@ form label.above select {
 }
 /*============table==*/
 table {
-    border:4px double  #ff6709;
+    border:4px double $orange;
     margin: auto;
     background-color:black;
     font-weight:bold;
@@ -433,7 +433,7 @@ table {
 }
 
 thead {
-    background-color: #ff6709;
+    background-color: $orange;
     color: black;
 }
 td {
