@@ -13,9 +13,7 @@
     section.hero {
         position: relative;
     }
-    /*picture.heroimage img {
-        position:relative;
-    }*/
+    
     /*===============*/
         
     div.call {
@@ -49,10 +47,6 @@
     
     }
     
-    /*
-    section.weather h4 {
-    display: inline-block;
-}*/
 /*====================*/
 section.testimonials {
     display: grid;
