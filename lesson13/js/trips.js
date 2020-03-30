@@ -24,7 +24,7 @@ fetch(trips)
         cost.textContent=desc[i].cost + " per person";
         services.textContent="Details: " + desc[i].services;
         image.setAttribute('src', "images/" + desc[i].photo);
-        image.setAttribute('alt', desc[i].location + "photo");
+        image.setAttribute('alt', desc[i].location + " photo");
 
         text.appendChild(location);
         text.appendChild(len);
