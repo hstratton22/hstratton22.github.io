@@ -401,6 +401,7 @@ form label.above select {
     display: flex;
     flex-direction:column;
 }
+
 .trips section {
     display: flex;
     flex-direction: column;
@@ -425,8 +426,10 @@ table {
     background-color:black;
     font-weight:bold;
     
-    
 
+}
+.table h2{
+    text-align:center;
 }
 thead {
     background-color: #ff6709;
