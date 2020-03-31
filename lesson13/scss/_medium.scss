@@ -97,7 +97,9 @@ section.map {
 .trips section {
     display: flex;
     flex-direction: row;
-}.trips section img {
+    padding: .75rem;
+}
+.trips section img {
     margin-left: .5rem;
 }
 
