@@ -69,6 +69,25 @@ div.test2 img {
 form {
     font-size:1rem;
 }
+/*========trips===========*/
+.trips section {
+    display: flex;
+    flex-direction: row;
+    padding: .75rem;
+}
+.trips section img {
+    margin-left: .5rem;
+    
+    
+}
+.trips section div {
+    padding:.5rem;
+    margin: 0 auto;
+}
 
+.trips section div p {
+    margin-bottom:.5rem;
+    margin-top:.25rem;
+}
 
 
