@@ -447,4 +447,10 @@ td {
 tbody {
     background-color: white;
 }
-
+/*========thanks============*/
+section.thanks h2{
+    border-radius:50px;
+    border: 4px double $dkGreen;
+    margin:1rem auto;
+    padding: 1rem;
+}
