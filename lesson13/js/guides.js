@@ -6,7 +6,7 @@ fetch(guidebios)
 
 })
 .then(function(jsonObject) {
-    //console.table(jsonObject);
+    
     const bios = jsonObject['bios'];
     for (let i=0; i <bios.length; i++) {
         let profile = document.createElement('section');
